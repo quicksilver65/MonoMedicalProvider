@@ -9,6 +9,7 @@ namespace UnitTest
 		[Test()]
 		public void TestCase ()
 		{
+            var x = 10;
 		}
 	}
 }
