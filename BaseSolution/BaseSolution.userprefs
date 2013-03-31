@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest/Test.cs">
     <Files>
       <File FileName="UnitTest/Test.cs" Line="16" Column="1" />
