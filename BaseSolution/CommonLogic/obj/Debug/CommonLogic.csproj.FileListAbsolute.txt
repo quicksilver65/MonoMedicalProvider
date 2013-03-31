@@ -1,0 +1,5 @@
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\CommonLogic\bin\Debug\CommonLogic.dll
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\CommonLogic\bin\Debug\CommonLogic.pdb
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\CommonLogic\obj\Debug\CommonLogic.csprojResolveAssemblyReference.cache
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\CommonLogic\obj\Debug\CommonLogic.dll
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\CommonLogic\obj\Debug\CommonLogic.pdb
