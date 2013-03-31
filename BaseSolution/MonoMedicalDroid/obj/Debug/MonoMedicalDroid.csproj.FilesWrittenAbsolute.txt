@@ -1,0 +1,12 @@
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.dll.mdb
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.dll
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.MonoMedicalDroid.apk
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/android/bin/MonoMedicalDroid.MonoMedicalDroid.apk
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/res/layout/main.xml
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/res/values/strings.xml
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/res/drawable/icon.png
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/R.cs.flag
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.MonoMedicalDroid-Signed.apk
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/uploadflags.txt
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/MonoMedicalDroid.dll
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/obj/Debug/MonoMedicalDroid.dll.mdb
