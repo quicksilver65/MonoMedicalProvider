@@ -16,3 +16,4 @@ C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoPhone8\obj
 C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoPhone8\obj\Debug\MonoPhone8.dll
 C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoPhone8\obj\Debug\MonoPhone8.pdb
 C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoPhone8\obj\Debug\XapCacheFile.xml
+C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoPhone8\obj\Debug\MonoPhone8.csprojResolveAssemblyReference.cache
