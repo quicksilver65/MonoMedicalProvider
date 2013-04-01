@@ -40,6 +40,8 @@
     <Compile Include="DataStore\FileStorage.cs" />
     <Compile Include="DataStore\NetworkStorage.cs" />
     <Compile Include="Models\MedialProvider.cs" />
+    <Compile Include="Models\SearchCriteria.cs" />
+    <Compile Include="Models\LatLong.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

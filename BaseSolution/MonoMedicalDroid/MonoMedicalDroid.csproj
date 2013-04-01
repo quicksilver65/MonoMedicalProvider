@@ -62,6 +62,12 @@
     <Compile Include="..\CommonLogic\Models\MedialProvider.cs">
       <Link>Models\MedialProvider.cs</Link>
     </Compile>
+    <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
+      <Link>Models\SearchCriteria.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\LatLong.cs">
+      <Link>Models\LatLong.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

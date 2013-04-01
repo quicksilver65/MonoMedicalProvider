@@ -106,6 +106,12 @@
       <Link>Models\MedialProvider.cs</Link>
     </Compile>
     <Compile Include="UnitTest.cs" />
+    <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
+      <Link>Models\SearchCriteria.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\LatLong.cs">
+      <Link>Models\LatLong.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
