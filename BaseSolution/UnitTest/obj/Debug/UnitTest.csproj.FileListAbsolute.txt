@@ -1,1 +1,0 @@
-C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache

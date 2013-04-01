@@ -80,9 +80,14 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Desktop\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="DataStore\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -93,6 +98,18 @@
     <Compile Include="MonoMedicalIOSViewController.cs" />
     <Compile Include="MonoMedicalIOSViewController.designer.cs">
       <DependentUpon>MonoMedicalIOSViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\CommonLogic\DataStore\FileStorage.cs">
+      <Link>DataStore\FileStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\DataStore\NetworkStorage.cs">
+      <Link>DataStore\NetworkStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\ViewModel.cs">
+      <Link>ViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\MedialProvider.cs">
+      <Link>Models\MedialProvider.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

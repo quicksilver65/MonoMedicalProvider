@@ -2,9 +2,9 @@ using System;
 
 namespace CommonLogic
 {
-	public class MyClass
+	public class ViewModel
 	{
-		public MyClass ()
+		public ViewModel ()
 		{
 		}
 	}
