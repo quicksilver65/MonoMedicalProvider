@@ -1,1 +1,1 @@
-C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoMedicalDroid\bin\Debug\MonoMedicalDroid.dll
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.dll
