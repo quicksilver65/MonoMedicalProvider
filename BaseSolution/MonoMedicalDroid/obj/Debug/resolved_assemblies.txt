@@ -1,2 +1,2 @@
-C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoMedicalDroid\bin\Debug\MonoMedicalDroid.dll
-C:\Users\lbrown\Documents\GitHub\MonoMedicalProvider\BaseSolution\MonoMedicalDroid\bin\Debug\Newtonsoft.Json.dll
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/MonoMedicalDroid.dll
+/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalDroid/bin/Debug/Newtonsoft.Json.dll
