@@ -1,331 +1,321 @@
-2013-04-01 14:36:51.515 UnitTestIOS[2082:1903] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
-2013-04-01 14:36:59.477 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetLatLong]
-2013-04-01 14:36:59.479 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:36:59.480 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:36:59.481 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:36:59.482 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:36:59.489 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:36:59 PM]
-2013-04-01 14:36:59.491 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:36:59.566 UnitTestIOS[2082:c07] 	[PASS] GetLatLong
-2013-04-01 14:36:59.570 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:01.222 UnitTestIOS[2082:4903] 33.46514 - -112.058
-2013-04-01 14:37:04.015 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetLatLong]
-2013-04-01 14:37:04.019 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:04.021 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:04.031 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:04.032 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:04.034 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:04 PM]
-2013-04-01 14:37:04.036 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:04.041 UnitTestIOS[2082:c07] 	[PASS] GetLatLong
-2013-04-01 14:37:04.044 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:04.681 UnitTestIOS[2082:4903] 33.46514 - -112.058
-2013-04-01 14:37:09.191 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetCities]
-2013-04-01 14:37:09.220 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:09.223 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:09.224 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:09.225 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:09.226 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:09 PM]
-2013-04-01 14:37:09.227 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:09.230 UnitTestIOS[2082:c07] 	[PASS] GetCities
-2013-04-01 14:37:09.234 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:09.394 UnitTestIOS[2082:4903] Aurora
-2013-04-01 14:37:09.396 UnitTestIOS[2082:4903] Avondale
-2013-04-01 14:37:09.397 UnitTestIOS[2082:4903] Baltimore
-2013-04-01 14:37:09.398 UnitTestIOS[2082:4903] Benson
-2013-04-01 14:37:09.399 UnitTestIOS[2082:4903] Bisbee
-2013-04-01 14:37:09.401 UnitTestIOS[2082:4903] Boston
-2013-04-01 14:37:09.401 UnitTestIOS[2082:4903] Bullhead City
-2013-04-01 14:37:09.402 UnitTestIOS[2082:4903] Casa Grande
-2013-04-01 14:37:09.403 UnitTestIOS[2082:4903] Chandler
-2013-04-01 14:37:09.404 UnitTestIOS[2082:4903] Cottonwood
-2013-04-01 14:37:09.408 UnitTestIOS[2082:4903] Douglas
-2013-04-01 14:37:09.410 UnitTestIOS[2082:4903] Flagstaff
-2013-04-01 14:37:09.411 UnitTestIOS[2082:4903] Florence
-2013-04-01 14:37:09.412 UnitTestIOS[2082:4903] Forty Mohave
-2013-04-01 14:37:09.413 UnitTestIOS[2082:4903] Fredericksburg
-2013-04-01 14:37:09.415 UnitTestIOS[2082:4903] Gilbert
-2013-04-01 14:37:09.417 UnitTestIOS[2082:4903] Glendale
-2013-04-01 14:37:09.417 UnitTestIOS[2082:4903] Globe
-2013-04-01 14:37:09.429 UnitTestIOS[2082:4903] Goodyear
-2013-04-01 14:37:09.430 UnitTestIOS[2082:4903] Green Valley
-2013-04-01 14:37:09.431 UnitTestIOS[2082:4903] Hereford
-2013-04-01 14:37:09.432 UnitTestIOS[2082:4903] Houston
-2013-04-01 14:37:09.433 UnitTestIOS[2082:4903] Indianapolis
-2013-04-01 14:37:09.434 UnitTestIOS[2082:4903] Kingman
-2013-04-01 14:37:09.435 UnitTestIOS[2082:4903] Knoxville
-2013-04-01 14:37:09.436 UnitTestIOS[2082:4903] Lake Havasu City
-2013-04-01 14:37:09.437 UnitTestIOS[2082:4903] Lakeside
-2013-04-01 14:37:09.439 UnitTestIOS[2082:4903] Litchfield Park
-2013-04-01 14:37:09.440 UnitTestIOS[2082:4903] Luke AFB
-2013-04-01 14:37:09.441 UnitTestIOS[2082:4903] Mesa
-2013-04-01 14:37:09.442 UnitTestIOS[2082:4903] Mohave Valley
-2013-04-01 14:37:09.443 UnitTestIOS[2082:4903] Needles
-2013-04-01 14:37:09.443 UnitTestIOS[2082:4903] New York
-2013-04-01 14:37:09.444 UnitTestIOS[2082:4903] Nogales
-2013-04-01 14:37:09.445 UnitTestIOS[2082:4903] Oro Valley
-2013-04-01 14:37:09.446 UnitTestIOS[2082:4903] Page
-2013-04-01 14:37:09.448 UnitTestIOS[2082:4903] Palm Springs
-2013-04-01 14:37:09.449 UnitTestIOS[2082:4903] Paradise Valley
-2013-04-01 14:37:09.459 UnitTestIOS[2082:4903] Paragould
-2013-04-01 14:37:09.461 UnitTestIOS[2082:4903] Parker
-2013-04-01 14:37:09.462 UnitTestIOS[2082:4903] Payson
-2013-04-01 14:37:09.463 UnitTestIOS[2082:4903] Pensacola
-2013-04-01 14:37:09.465 UnitTestIOS[2082:4903] Peoria
-2013-04-01 14:37:09.467 UnitTestIOS[2082:4903] Phoenix
-2013-04-01 14:37:09.468 UnitTestIOS[2082:4903] Pinetop
-2013-04-01 14:37:09.471 UnitTestIOS[2082:4903] Plano
-2013-04-01 14:37:09.472 UnitTestIOS[2082:4903] Prescott
-2013-04-01 14:37:09.473 UnitTestIOS[2082:4903] Prescott Valley
-2013-04-01 14:37:09.475 UnitTestIOS[2082:4903] Queen Creek
-2013-04-01 14:37:09.476 UnitTestIOS[2082:4903] Rochester
-2013-04-01 14:37:09.477 UnitTestIOS[2082:4903] Sacaton
-2013-04-01 14:37:09.478 UnitTestIOS[2082:4903] Safford
-2013-04-01 14:37:09.479 UnitTestIOS[2082:4903] Saint Louis
-2013-04-01 14:37:09.480 UnitTestIOS[2082:4903] San Carlos
-2013-04-01 14:37:09.481 UnitTestIOS[2082:4903] Scottsdale
-2013-04-01 14:37:09.482 UnitTestIOS[2082:4903] Sedona
-2013-04-01 14:37:09.491 UnitTestIOS[2082:4903] Show Low
-2013-04-01 14:37:09.492 UnitTestIOS[2082:4903] Sierra Vista
-2013-04-01 14:37:09.493 UnitTestIOS[2082:4903] Springerville
-2013-04-01 14:37:09.494 UnitTestIOS[2082:4903] St Johns
-2013-04-01 14:37:09.495 UnitTestIOS[2082:4903] Sun City
-2013-04-01 14:37:09.496 UnitTestIOS[2082:4903] Sun City West
-2013-04-01 14:37:09.497 UnitTestIOS[2082:4903] Surprise
-2013-04-01 14:37:09.498 UnitTestIOS[2082:4903] Tampa
-2013-04-01 14:37:09.499 UnitTestIOS[2082:4903] Tempe
-2013-04-01 14:37:09.500 UnitTestIOS[2082:4903] Tolleson
-2013-04-01 14:37:09.501 UnitTestIOS[2082:4903] Tuba City
-2013-04-01 14:37:09.502 UnitTestIOS[2082:4903] Tucson
-2013-04-01 14:37:09.504 UnitTestIOS[2082:4903] Vista
-2013-04-01 14:37:09.505 UnitTestIOS[2082:4903] Whiteriver
-2013-04-01 14:37:09.506 UnitTestIOS[2082:4903] Wickenburg
-2013-04-01 14:37:09.507 UnitTestIOS[2082:4903] Willcox
-2013-04-01 14:37:09.509 UnitTestIOS[2082:4903] Winslow
-2013-04-01 14:37:09.510 UnitTestIOS[2082:4903] Yuma
-2013-04-01 14:37:10.341 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetMedicalProviders]
-2013-04-01 14:37:10.343 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:10.345 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:10.347 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:10.351 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:10.354 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:10 PM]
-2013-04-01 14:37:10.356 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:10.388 UnitTestIOS[2082:c07] 	[PASS] GetMedicalProviders
-2013-04-01 14:37:10.392 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:10.695 UnitTestIOS[2082:5e03] Nicole Abdy
-2013-04-01 14:37:10.696 UnitTestIOS[2082:5e03] Thomas Abram
-2013-04-01 14:37:10.696 UnitTestIOS[2082:5e03] Thomas Abram
-2013-04-01 14:37:10.697 UnitTestIOS[2082:5e03] Bedri Abubeker
-2013-04-01 14:37:10.698 UnitTestIOS[2082:5e03] Rodney Adam
-2013-04-01 14:37:10.699 UnitTestIOS[2082:5e03] Rodney Adam
-2013-04-01 14:37:10.700 UnitTestIOS[2082:5e03] Marie Adamczyk
-2013-04-01 14:37:10.701 UnitTestIOS[2082:5e03] Cecilia Adams
-2013-04-01 14:37:10.702 UnitTestIOS[2082:5e03] Seth Adams
-2013-04-01 14:37:10.703 UnitTestIOS[2082:5e03] Ilana Addis
-2013-04-01 14:37:10.704 UnitTestIOS[2082:5e03] Albert Adler
-2013-04-01 14:37:10.705 UnitTestIOS[2082:5e03] Dorit Adler
-2013-04-01 14:37:10.716 UnitTestIOS[2082:5e03] Dorit Adler
-2013-04-01 14:37:10.717 UnitTestIOS[2082:5e03] Lawrence Adler
-2013-04-01 14:37:10.718 UnitTestIOS[2082:5e03] Carrie Adrion
-2013-04-01 14:37:10.719 UnitTestIOS[2082:5e03] Peter Afsari
-2013-04-01 14:37:10.721 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:10.724 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:10.725 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:10.727 UnitTestIOS[2082:5e03] Abram Aguilar
-2013-04-01 14:37:10.728 UnitTestIOS[2082:5e03] Abram Aguilar
-2013-04-01 14:37:10.729 UnitTestIOS[2082:5e03] James Aguilar
-2013-04-01 14:37:10.730 UnitTestIOS[2082:5e03] Michelle Aguilar
-2013-04-01 14:37:10.739 UnitTestIOS[2082:5e03] Denise Ahearn
-2013-04-01 14:37:10.740 UnitTestIOS[2082:5e03] Geoffrey Ahern
-2013-04-01 14:37:11.192 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetSpecialties]
-2013-04-01 14:37:11.195 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:11.196 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:11.199 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:11.217 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:11.218 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:11 PM]
-2013-04-01 14:37:11.219 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:11.225 UnitTestIOS[2082:c07] 	[PASS] GetSpecialties
-2013-04-01 14:37:11.228 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:12.099 UnitTestIOS[2082:5e03] Internal Medicine
-2013-04-01 14:37:12.102 UnitTestIOS[2082:5e03] Ophthalmology
-2013-04-01 14:37:12.105 UnitTestIOS[2082:5e03] Anesthesiology
-2013-04-01 14:37:12.107 UnitTestIOS[2082:5e03] Cytopathology
-2013-04-01 14:37:12.110 UnitTestIOS[2082:5e03] Clinical Pathology
-2013-04-01 14:37:12.113 UnitTestIOS[2082:5e03] Anatomic Pathology
-2013-04-01 14:37:12.116 UnitTestIOS[2082:5e03] Pediatric Medicine
-2013-04-01 14:37:12.118 UnitTestIOS[2082:5e03] Forensic Psychiatry
-2013-04-01 14:37:12.120 UnitTestIOS[2082:5e03] Emergency Medicine
-2013-04-01 14:37:12.122 UnitTestIOS[2082:5e03] Orthopedic Surgery
-2013-04-01 14:37:12.124 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.IsolatedStorage]
-2013-04-01 14:37:12.125 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:12.133 UnitTestIOS[2082:5e03] Orthopedic Trauma
-2013-04-01 14:37:12.134 UnitTestIOS[2082:5e03] Neurosurgery
-2013-04-01 14:37:12.135 UnitTestIOS[2082:5e03] General Surgery
-2013-04-01 14:37:12.136 UnitTestIOS[2082:5e03] Diagnostic Radiology
-2013-04-01 14:37:12.137 UnitTestIOS[2082:5e03] Radiology
-2013-04-01 14:37:12.139 UnitTestIOS[2082:5e03] Infectious Disease
-2013-04-01 14:37:12.140 UnitTestIOS[2082:5e03] Pathology
-2013-04-01 14:37:12.141 UnitTestIOS[2082:5e03] Obstetrics & Gynecology
-2013-04-01 14:37:12.142 UnitTestIOS[2082:5e03] Pediatric Hematology/Oncology
-2013-04-01 14:37:12.142 UnitTestIOS[2082:5e03] Hematology / Oncology
-2013-04-01 14:37:12.143 UnitTestIOS[2082:5e03] Dermatology
-2013-04-01 14:37:12.144 UnitTestIOS[2082:5e03] Cardiovascular Disease
-2013-04-01 14:37:12.145 UnitTestIOS[2082:5e03] Diagnostic Ultrasound
-2013-04-01 14:37:12.146 UnitTestIOS[2082:5e03] Neurology
-2013-04-01 14:37:12.156 UnitTestIOS[2082:5e03] Hematology
-2013-04-01 14:37:12.157 UnitTestIOS[2082:5e03] Medical Oncology
-2013-04-01 14:37:12.158 UnitTestIOS[2082:5e03] Neonatal-Perinatal Medicine
-2013-04-01 14:37:12.159 UnitTestIOS[2082:5e03] Maternal & Fetal Medicine
-2013-04-01 14:37:12.160 UnitTestIOS[2082:5e03] Psychiatry
-2013-04-01 14:37:12.160 UnitTestIOS[2082:5e03] Gastroenterology
-2013-04-01 14:37:12.161 UnitTestIOS[2082:5e03] Hospitalist
-2013-04-01 14:37:12.162 UnitTestIOS[2082:5e03] Gynecology
-2013-04-01 14:37:12.163 UnitTestIOS[2082:5e03] Pediatric Internal Medicine
-2013-04-01 14:37:12.165 UnitTestIOS[2082:5e03] Radiation Oncology
-2013-04-01 14:37:12.166 UnitTestIOS[2082:5e03] Nuclear Radiology
-2013-04-01 14:37:12.167 UnitTestIOS[2082:5e03] Therapeutic Radiology
-2013-04-01 14:37:12.168 UnitTestIOS[2082:5e03] Body Imaging
-2013-04-01 14:37:12.169 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:12.170 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:12.172 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:12.173 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:12 PM]
-2013-04-01 14:37:12.175 UnitTestIOS[2082:5e03] Pediatric Radiology
-2013-04-01 14:37:12.176 UnitTestIOS[2082:5e03] Vascular & Interventional Radiology
-2013-04-01 14:37:12.178 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:12.179 UnitTestIOS[2082:5e03] Neuroradiology
-2013-04-01 14:37:12.181 UnitTestIOS[2082:5e03] Musculoskeletal Radiology
-2013-04-01 14:37:12.182 UnitTestIOS[2082:5e03] Child Psychiatry
-2013-04-01 14:37:12.183 UnitTestIOS[2082:5e03] Family Practice
-2013-04-01 14:37:12.184 UnitTestIOS[2082:5e03] Critical Care (Intensivists)
-2013-04-01 14:37:12.184 UnitTestIOS[2082:5e03] Pulmonary Disease
-2013-04-01 14:37:12.185 UnitTestIOS[2082:5e03] Geriatric Medicine
-2013-04-01 14:37:12.186 UnitTestIOS[2082:5e03] Vascular Neurology
-2013-04-01 14:37:12.187 UnitTestIOS[2082:5e03] Clinical Neurophysiology
-2013-04-01 14:37:12.188 UnitTestIOS[2082:5e03] Urology
-2013-04-01 14:37:12.189 UnitTestIOS[2082:5e03] Gynecology / Oncology
-2013-04-01 14:37:12.190 UnitTestIOS[2082:5e03] Vascular Surgery
-2013-04-01 14:37:12.191 UnitTestIOS[2082:5e03] Thoracic Surgery
-2013-04-01 14:37:12.192 UnitTestIOS[2082:5e03] Cardiac Surgery
-2013-04-01 14:37:12.193 UnitTestIOS[2082:5e03] Physical Medicine and Rehabilitation
-2013-04-01 14:37:12.194 UnitTestIOS[2082:5e03] Pulmonary Critical Care
-2013-04-01 14:37:12.195 UnitTestIOS[2082:c07] 	[PASS] IsolatedStorage
-2013-04-01 14:37:12.196 UnitTestIOS[2082:5e03] Cardiology
-2013-04-01 14:37:12.197 UnitTestIOS[2082:5e03] Interventional Cardiology
-2013-04-01 14:37:12.199 UnitTestIOS[2082:5e03] Clinical Cardiac Electrophysiology
-2013-04-01 14:37:12.200 UnitTestIOS[2082:5e03] Pain Management
-2013-04-01 14:37:12.201 UnitTestIOS[2082:5e03] Forensic Pathology
-2013-04-01 14:37:12.201 UnitTestIOS[2082:5e03] Hospice and Palliative Medicine
-2013-04-01 14:37:12.202 UnitTestIOS[2082:5e03] Pediatric Gastroenterology
-2013-04-01 14:37:12.203 UnitTestIOS[2082:5e03] General Practice
-2013-04-01 14:37:12.204 UnitTestIOS[2082:5e03] Otolaryngology
-2013-04-01 14:37:12.205 UnitTestIOS[2082:5e03] Plastic Reconstructive Surgery 
-2013-04-01 14:37:12.206 UnitTestIOS[2082:5e03] Sleep Medicine
-2013-04-01 14:37:12.207 UnitTestIOS[2082:5e03] Hepatology
-2013-04-01 14:37:12.208 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:12.209 UnitTestIOS[2082:5e03] Endocrinology
-2013-04-01 14:37:12.210 UnitTestIOS[2082:5e03] Diabetes Specialist
-2013-04-01 14:37:12.211 UnitTestIOS[2082:5e03] Pediatric Critical Care
-2013-04-01 14:37:12.212 UnitTestIOS[2082:5e03] Pediatric Surgery
-2013-04-01 14:37:12.213 UnitTestIOS[2082:5e03] Nephrology
-2013-04-01 14:37:12.213 UnitTestIOS[2082:5e03] Transplant Surgery
-2013-04-01 14:37:12.214 UnitTestIOS[2082:5e03] Laboratory Medicine
-2013-04-01 14:37:12.215 UnitTestIOS[2082:5e03] Pediatric Endocrinology
-2013-04-01 14:37:12.216 UnitTestIOS[2082:5e03] Addiction Psychiatry
-2013-04-01 14:37:12.217 UnitTestIOS[2082:5e03] Undersea and Hyperbaric Medicine
-2013-04-01 14:37:12.218 UnitTestIOS[2082:5e03] Colorectal Surgery (formerly Proctology)
-2013-04-01 14:37:12.219 UnitTestIOS[2082:5e03] Nuclear Medicine
-2013-04-01 14:37:12.220 UnitTestIOS[2082:5e03] Plastic Surgery
-2013-04-01 14:37:12.221 UnitTestIOS[2082:5e03] Hand Surgery
-2013-04-01 14:37:12.222 UnitTestIOS[2082:5e03] Aerospace Medicine
-2013-04-01 14:37:12.223 UnitTestIOS[2082:5e03] Sports Medicine
-2013-04-01 14:37:12.224 UnitTestIOS[2082:5e03] Adolescent Medicine
-2013-04-01 14:37:12.225 UnitTestIOS[2082:5e03] Urological Surgery
-2013-04-01 14:37:12.226 UnitTestIOS[2082:5e03] Interventional Pain Management
-2013-04-01 14:37:12.235 UnitTestIOS[2082:5e03] Maxillofacial Surgery
-2013-04-01 14:37:12.236 UnitTestIOS[2082:5e03] Obstetrics
-2013-04-01 14:37:12.237 UnitTestIOS[2082:5e03] Rheumatology
-2013-04-01 14:37:12.237 UnitTestIOS[2082:5e03] Neuromusculoskeletal Medicine
-2013-04-01 14:37:12.238 UnitTestIOS[2082:5e03] Geriatric Psychiatry
-2013-04-01 14:37:12.239 UnitTestIOS[2082:5e03] Nuclear Cardiology
-2013-04-01 14:37:12.240 UnitTestIOS[2082:5e03] Psychosomatic Medicine
-2013-04-01 14:37:12.240 UnitTestIOS[2082:5e03] Neuropsychiatry
-2013-04-01 14:37:12.242 UnitTestIOS[2082:5e03] Pediatric Pathology
-2013-04-01 14:37:12.242 UnitTestIOS[2082:5e03] Trauma Surgery
-2013-04-01 14:37:12.243 UnitTestIOS[2082:5e03] Orthopedic Foot & Ankle Surgery
-2013-04-01 14:37:12.244 UnitTestIOS[2082:5e03] Pediatric Nephrology
-2013-04-01 14:37:12.245 UnitTestIOS[2082:5e03] Abdominal Radiology
-2013-04-01 14:37:12.246 UnitTestIOS[2082:5e03] Public Health Medicine
-2013-04-01 14:37:12.265 UnitTestIOS[2082:5e03] Pediatric Cardiology
-2013-04-01 14:37:12.266 UnitTestIOS[2082:5e03] Orthopedic Reconstructive Surgery
-2013-04-01 14:37:12.268 UnitTestIOS[2082:5e03] Addiction Medicine
-2013-04-01 14:37:12.269 UnitTestIOS[2082:5e03] Plastic Reconstructive Surgery
-2013-04-01 14:37:12.270 UnitTestIOS[2082:5e03] Occupational Medicine
-2013-04-01 14:37:12.272 UnitTestIOS[2082:5e03] Head & Neck Surgery
-2013-04-01 14:37:12.283 UnitTestIOS[2082:5e03] Neuropathology
-2013-04-01 14:37:12.284 UnitTestIOS[2082:5e03] Preventive Medicine
-2013-04-01 14:37:12.285 UnitTestIOS[2082:5e03] Clinical Pharmacology
-2013-04-01 14:37:12.285 UnitTestIOS[2082:5e03] Otology & Neurotology
-2013-04-01 14:37:12.286 UnitTestIOS[2082:5e03] Pediatric Anesthesiology
-2013-04-01 14:37:12.287 UnitTestIOS[2082:5e03] Dermatopathology
-2013-04-01 14:37:12.288 UnitTestIOS[2082:5e03] Pediatric Orthopedic Surgery
-2013-04-01 14:37:12.289 UnitTestIOS[2082:5e03] Child Neurology
-2013-04-01 14:37:12.290 UnitTestIOS[2082:5e03] Allergy / Immunology
-2013-04-01 14:37:12.292 UnitTestIOS[2082:5e03] Orthopedic Spine Surgery
-2013-04-01 14:37:12.292 UnitTestIOS[2082:5e03] Pediatric Urology
-2013-04-01 14:37:12.293 UnitTestIOS[2082:5e03] Pediatric Pulmonology
-2013-04-01 14:37:12.294 UnitTestIOS[2082:5e03] Surgical Critical Care
-2013-04-01 14:37:12.295 UnitTestIOS[2082:5e03] Pediatric Emergency Medicine
-2013-04-01 14:37:12.297 UnitTestIOS[2082:5e03] Facial Plastic Surgery
-2013-04-01 14:37:12.299 UnitTestIOS[2082:5e03] Adult Medicine
-2013-04-01 14:37:12.300 UnitTestIOS[2082:5e03] Medical Toxicology
-2013-04-01 14:37:12.301 UnitTestIOS[2082:5e03] Pediatric Dermatology
-2013-04-01 14:37:12.301 UnitTestIOS[2082:5e03] Interventional Radiology
-2013-04-01 14:37:12.302 UnitTestIOS[2082:5e03] Urgent Care
-2013-04-01 14:37:12.303 UnitTestIOS[2082:5e03] Legal Medicine
-2013-04-01 14:37:12.305 UnitTestIOS[2082:5e03] Medical Microbiology
-2013-04-01 14:37:12.306 UnitTestIOS[2082:5e03] Clinical Genetics 
-2013-04-01 14:37:12.307 UnitTestIOS[2082:5e03] Genetics Specialist
-2013-04-01 14:37:12.308 UnitTestIOS[2082:5e03] Neonatology
-2013-04-01 14:37:12.309 UnitTestIOS[2082:5e03] Blood Banking & Transfusion Medicine
-2013-04-01 14:37:12.310 UnitTestIOS[2082:5e03] Diagnostic Neuroimaging
-2013-04-01 14:37:12.311 UnitTestIOS[2082:5e03] Procedural Dermatology
-2013-04-01 14:37:12.313 UnitTestIOS[2082:5e03] Abdominal Surgery
-2013-04-01 14:37:12.329 UnitTestIOS[2082:5e03] Immunology
-2013-04-01 14:37:12.330 UnitTestIOS[2082:5e03] Bariatrician
-2013-04-01 14:37:12.331 UnitTestIOS[2082:5e03] Pediatric Rheumatology
-2013-04-01 14:37:12.332 UnitTestIOS[2082:5e03] Nuclear Imaging & Therapy
-2013-04-01 14:37:12.333 UnitTestIOS[2082:5e03] Surgical Oncology
-2013-04-01 14:37:16.179 UnitTestIOS[2082:c07] [Runner executing:	UnitTestIOS.UnitTest.GetMedicalProviders]
-2013-04-01 14:37:16.183 UnitTestIOS[2082:c07] [MonoTouch Version:	6.2.1]
-2013-04-01 14:37:16.187 UnitTestIOS[2082:c07] [iPhone Simulator:	iPhone OS v6.1]
-2013-04-01 14:37:16.193 UnitTestIOS[2082:c07] [Device Name:	iPhone Simulator]
-2013-04-01 14:37:16.204 UnitTestIOS[2082:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
-2013-04-01 14:37:16.206 UnitTestIOS[2082:c07] [Device Date/Time:	4/1/2013 2:37:16 PM]
-2013-04-01 14:37:16.207 UnitTestIOS[2082:c07] [Bundle:	com.yourcompany.unittestios]
-2013-04-01 14:37:16.211 UnitTestIOS[2082:c07] 	[PASS] GetMedicalProviders
-2013-04-01 14:37:16.214 UnitTestIOS[2082:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
-2013-04-01 14:37:16.837 UnitTestIOS[2082:5e03] Nicole Abdy
-2013-04-01 14:37:16.839 UnitTestIOS[2082:5e03] Thomas Abram
-2013-04-01 14:37:16.841 UnitTestIOS[2082:5e03] Thomas Abram
-2013-04-01 14:37:16.843 UnitTestIOS[2082:5e03] Bedri Abubeker
-2013-04-01 14:37:16.845 UnitTestIOS[2082:5e03] Rodney Adam
-2013-04-01 14:37:16.847 UnitTestIOS[2082:5e03] Rodney Adam
-2013-04-01 14:37:16.849 UnitTestIOS[2082:5e03] Marie Adamczyk
-2013-04-01 14:37:16.852 UnitTestIOS[2082:5e03] Cecilia Adams
-2013-04-01 14:37:16.853 UnitTestIOS[2082:5e03] Seth Adams
-2013-04-01 14:37:16.855 UnitTestIOS[2082:5e03] Ilana Addis
-2013-04-01 14:37:16.857 UnitTestIOS[2082:5e03] Albert Adler
-2013-04-01 14:37:16.859 UnitTestIOS[2082:5e03] Dorit Adler
-2013-04-01 14:37:16.861 UnitTestIOS[2082:5e03] Dorit Adler
-2013-04-01 14:37:16.863 UnitTestIOS[2082:5e03] Lawrence Adler
-2013-04-01 14:37:16.864 UnitTestIOS[2082:5e03] Carrie Adrion
-2013-04-01 14:37:16.865 UnitTestIOS[2082:5e03] Peter Afsari
-2013-04-01 14:37:16.866 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:16.867 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:16.868 UnitTestIOS[2082:5e03] Mridula Aggarwal
-2013-04-01 14:37:16.869 UnitTestIOS[2082:5e03] Abram Aguilar
-2013-04-01 14:37:16.870 UnitTestIOS[2082:5e03] Abram Aguilar
-2013-04-01 14:37:16.871 UnitTestIOS[2082:5e03] James Aguilar
-2013-04-01 14:37:16.872 UnitTestIOS[2082:5e03] Michelle Aguilar
-2013-04-01 14:37:16.873 UnitTestIOS[2082:5e03] Denise Ahearn
-2013-04-01 14:37:16.874 UnitTestIOS[2082:5e03] Geoffrey Ahern
+2013-04-01 17:03:43.335 UnitTestIOS[398:1803] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
+2013-04-01 17:03:48.679 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.GetMedicalProviders]
+2013-04-01 17:03:48.680 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:48.682 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:48.693 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:48.694 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:48.700 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:48 PM]
+2013-04-01 17:03:48.702 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:48.841 UnitTestIOS[398:c07] 	[PASS] GetMedicalProviders
+2013-04-01 17:03:48.845 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:50.707 UnitTestIOS[398:5d03] Nicole Abdy
+2013-04-01 17:03:50.709 UnitTestIOS[398:5d03] Thomas Abram
+2013-04-01 17:03:50.710 UnitTestIOS[398:5d03] Thomas Abram
+2013-04-01 17:03:50.711 UnitTestIOS[398:5d03] Bedri Abubeker
+2013-04-01 17:03:50.712 UnitTestIOS[398:5d03] Rodney Adam
+2013-04-01 17:03:50.713 UnitTestIOS[398:5d03] Rodney Adam
+2013-04-01 17:03:50.715 UnitTestIOS[398:5d03] Marie Adamczyk
+2013-04-01 17:03:50.716 UnitTestIOS[398:5d03] Cecilia Adams
+2013-04-01 17:03:50.717 UnitTestIOS[398:5d03] Seth Adams
+2013-04-01 17:03:50.718 UnitTestIOS[398:5d03] Ilana Addis
+2013-04-01 17:03:50.719 UnitTestIOS[398:5d03] Albert Adler
+2013-04-01 17:03:50.720 UnitTestIOS[398:5d03] Dorit Adler
+2013-04-01 17:03:50.721 UnitTestIOS[398:5d03] Dorit Adler
+2013-04-01 17:03:50.722 UnitTestIOS[398:5d03] Lawrence Adler
+2013-04-01 17:03:50.723 UnitTestIOS[398:5d03] Carrie Adrion
+2013-04-01 17:03:50.723 UnitTestIOS[398:5d03] Peter Afsari
+2013-04-01 17:03:50.724 UnitTestIOS[398:5d03] Mridula Aggarwal
+2013-04-01 17:03:50.725 UnitTestIOS[398:5d03] Mridula Aggarwal
+2013-04-01 17:03:50.726 UnitTestIOS[398:5d03] Mridula Aggarwal
+2013-04-01 17:03:50.727 UnitTestIOS[398:5d03] Abram Aguilar
+2013-04-01 17:03:50.728 UnitTestIOS[398:5d03] Abram Aguilar
+2013-04-01 17:03:50.729 UnitTestIOS[398:5d03] James Aguilar
+2013-04-01 17:03:50.730 UnitTestIOS[398:5d03] Michelle Aguilar
+2013-04-01 17:03:50.731 UnitTestIOS[398:5d03] Denise Ahearn
+2013-04-01 17:03:50.732 UnitTestIOS[398:5d03] Geoffrey Ahern
+2013-04-01 17:03:53.215 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.GetCities]
+2013-04-01 17:03:53.219 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:53.221 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:53.241 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:53.244 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:53.247 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:53 PM]
+2013-04-01 17:03:53.249 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:53.260 UnitTestIOS[398:c07] 	[PASS] GetCities
+2013-04-01 17:03:53.263 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:53.418 UnitTestIOS[398:5d03] Aurora
+2013-04-01 17:03:53.423 UnitTestIOS[398:5d03] Avondale
+2013-04-01 17:03:53.424 UnitTestIOS[398:5d03] Baltimore
+2013-04-01 17:03:53.425 UnitTestIOS[398:5d03] Benson
+2013-04-01 17:03:53.426 UnitTestIOS[398:5d03] Bisbee
+2013-04-01 17:03:53.427 UnitTestIOS[398:5d03] Boston
+2013-04-01 17:03:53.428 UnitTestIOS[398:5d03] Bullhead City
+2013-04-01 17:03:53.429 UnitTestIOS[398:5d03] Casa Grande
+2013-04-01 17:03:53.430 UnitTestIOS[398:5d03] Chandler
+2013-04-01 17:03:53.430 UnitTestIOS[398:5d03] Cottonwood
+2013-04-01 17:03:53.432 UnitTestIOS[398:5d03] Douglas
+2013-04-01 17:03:53.433 UnitTestIOS[398:5d03] Flagstaff
+2013-04-01 17:03:53.434 UnitTestIOS[398:5d03] Florence
+2013-04-01 17:03:53.436 UnitTestIOS[398:5d03] Forty Mohave
+2013-04-01 17:03:53.437 UnitTestIOS[398:5d03] Fredericksburg
+2013-04-01 17:03:53.438 UnitTestIOS[398:5d03] Gilbert
+2013-04-01 17:03:53.441 UnitTestIOS[398:5d03] Glendale
+2013-04-01 17:03:53.444 UnitTestIOS[398:5d03] Globe
+2013-04-01 17:03:53.446 UnitTestIOS[398:5d03] Goodyear
+2013-04-01 17:03:53.447 UnitTestIOS[398:5d03] Green Valley
+2013-04-01 17:03:53.448 UnitTestIOS[398:5d03] Hereford
+2013-04-01 17:03:53.448 UnitTestIOS[398:5d03] Houston
+2013-04-01 17:03:53.449 UnitTestIOS[398:5d03] Indianapolis
+2013-04-01 17:03:53.450 UnitTestIOS[398:5d03] Kingman
+2013-04-01 17:03:53.452 UnitTestIOS[398:5d03] Knoxville
+2013-04-01 17:03:53.453 UnitTestIOS[398:5d03] Lake Havasu City
+2013-04-01 17:03:53.454 UnitTestIOS[398:5d03] Lakeside
+2013-04-01 17:03:53.455 UnitTestIOS[398:5d03] Litchfield Park
+2013-04-01 17:03:53.457 UnitTestIOS[398:5d03] Luke AFB
+2013-04-01 17:03:53.458 UnitTestIOS[398:5d03] Mesa
+2013-04-01 17:03:53.459 UnitTestIOS[398:5d03] Mohave Valley
+2013-04-01 17:03:53.460 UnitTestIOS[398:5d03] Needles
+2013-04-01 17:03:53.461 UnitTestIOS[398:5d03] New York
+2013-04-01 17:03:53.463 UnitTestIOS[398:5d03] Nogales
+2013-04-01 17:03:53.464 UnitTestIOS[398:5d03] Oro Valley
+2013-04-01 17:03:53.465 UnitTestIOS[398:5d03] Page
+2013-04-01 17:03:53.480 UnitTestIOS[398:5d03] Palm Springs
+2013-04-01 17:03:53.481 UnitTestIOS[398:5d03] Paradise Valley
+2013-04-01 17:03:53.482 UnitTestIOS[398:5d03] Paragould
+2013-04-01 17:03:53.484 UnitTestIOS[398:5d03] Parker
+2013-04-01 17:03:53.486 UnitTestIOS[398:5d03] Payson
+2013-04-01 17:03:53.487 UnitTestIOS[398:5d03] Pensacola
+2013-04-01 17:03:53.487 UnitTestIOS[398:5d03] Peoria
+2013-04-01 17:03:53.488 UnitTestIOS[398:5d03] Phoenix
+2013-04-01 17:03:53.489 UnitTestIOS[398:5d03] Pinetop
+2013-04-01 17:03:53.490 UnitTestIOS[398:5d03] Plano
+2013-04-01 17:03:53.491 UnitTestIOS[398:5d03] Prescott
+2013-04-01 17:03:53.492 UnitTestIOS[398:5d03] Prescott Valley
+2013-04-01 17:03:53.493 UnitTestIOS[398:5d03] Queen Creek
+2013-04-01 17:03:53.494 UnitTestIOS[398:5d03] Rochester
+2013-04-01 17:03:53.495 UnitTestIOS[398:5d03] Sacaton
+2013-04-01 17:03:53.496 UnitTestIOS[398:5d03] Safford
+2013-04-01 17:03:53.497 UnitTestIOS[398:5d03] Saint Louis
+2013-04-01 17:03:53.498 UnitTestIOS[398:5d03] San Carlos
+2013-04-01 17:03:53.499 UnitTestIOS[398:5d03] Scottsdale
+2013-04-01 17:03:53.500 UnitTestIOS[398:5d03] Sedona
+2013-04-01 17:03:53.508 UnitTestIOS[398:5d03] Show Low
+2013-04-01 17:03:53.509 UnitTestIOS[398:5d03] Sierra Vista
+2013-04-01 17:03:53.511 UnitTestIOS[398:5d03] Springerville
+2013-04-01 17:03:53.511 UnitTestIOS[398:5d03] St Johns
+2013-04-01 17:03:53.512 UnitTestIOS[398:5d03] Sun City
+2013-04-01 17:03:53.513 UnitTestIOS[398:5d03] Sun City West
+2013-04-01 17:03:53.514 UnitTestIOS[398:5d03] Surprise
+2013-04-01 17:03:53.515 UnitTestIOS[398:5d03] Tampa
+2013-04-01 17:03:53.517 UnitTestIOS[398:5d03] Tempe
+2013-04-01 17:03:53.519 UnitTestIOS[398:5d03] Tolleson
+2013-04-01 17:03:53.520 UnitTestIOS[398:5d03] Tuba City
+2013-04-01 17:03:53.521 UnitTestIOS[398:5d03] Tucson
+2013-04-01 17:03:53.522 UnitTestIOS[398:5d03] Vista
+2013-04-01 17:03:53.523 UnitTestIOS[398:5d03] Whiteriver
+2013-04-01 17:03:53.524 UnitTestIOS[398:5d03] Wickenburg
+2013-04-01 17:03:53.525 UnitTestIOS[398:5d03] Willcox
+2013-04-01 17:03:53.526 UnitTestIOS[398:5d03] Winslow
+2013-04-01 17:03:53.527 UnitTestIOS[398:5d03] Yuma
+2013-04-01 17:03:54.150 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.GetLatLong]
+2013-04-01 17:03:54.154 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:54.156 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:54.176 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:54.178 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:54.180 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:54 PM]
+2013-04-01 17:03:54.182 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:54.189 UnitTestIOS[398:c07] 	[PASS] GetLatLong
+2013-04-01 17:03:54.193 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:54.581 UnitTestIOS[398:5d03] 33.46514 - -112.058
+2013-04-01 17:03:55.001 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.GetSpecialties]
+2013-04-01 17:03:55.003 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:55.006 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:55.012 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:55.016 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:55.018 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:55 PM]
+2013-04-01 17:03:55.021 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:55.031 UnitTestIOS[398:c07] 	[PASS] GetSpecialties
+2013-04-01 17:03:55.034 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:55.266 UnitTestIOS[398:5d03] Internal Medicine
+2013-04-01 17:03:55.267 UnitTestIOS[398:5d03] Ophthalmology
+2013-04-01 17:03:55.268 UnitTestIOS[398:5d03] Anesthesiology
+2013-04-01 17:03:55.269 UnitTestIOS[398:5d03] Cytopathology
+2013-04-01 17:03:55.270 UnitTestIOS[398:5d03] Clinical Pathology
+2013-04-01 17:03:55.271 UnitTestIOS[398:5d03] Anatomic Pathology
+2013-04-01 17:03:55.272 UnitTestIOS[398:5d03] Pediatric Medicine
+2013-04-01 17:03:55.273 UnitTestIOS[398:5d03] Forensic Psychiatry
+2013-04-01 17:03:55.274 UnitTestIOS[398:5d03] Emergency Medicine
+2013-04-01 17:03:55.275 UnitTestIOS[398:5d03] Orthopedic Surgery
+2013-04-01 17:03:55.276 UnitTestIOS[398:5d03] Orthopedic Trauma
+2013-04-01 17:03:55.278 UnitTestIOS[398:5d03] Neurosurgery
+2013-04-01 17:03:55.279 UnitTestIOS[398:5d03] General Surgery
+2013-04-01 17:03:55.280 UnitTestIOS[398:5d03] Diagnostic Radiology
+2013-04-01 17:03:55.281 UnitTestIOS[398:5d03] Radiology
+2013-04-01 17:03:55.282 UnitTestIOS[398:5d03] Infectious Disease
+2013-04-01 17:03:55.283 UnitTestIOS[398:5d03] Pathology
+2013-04-01 17:03:55.284 UnitTestIOS[398:5d03] Obstetrics & Gynecology
+2013-04-01 17:03:55.285 UnitTestIOS[398:5d03] Pediatric Hematology/Oncology
+2013-04-01 17:03:55.286 UnitTestIOS[398:5d03] Hematology / Oncology
+2013-04-01 17:03:55.297 UnitTestIOS[398:5d03] Dermatology
+2013-04-01 17:03:55.298 UnitTestIOS[398:5d03] Cardiovascular Disease
+2013-04-01 17:03:55.299 UnitTestIOS[398:5d03] Diagnostic Ultrasound
+2013-04-01 17:03:55.301 UnitTestIOS[398:5d03] Neurology
+2013-04-01 17:03:55.302 UnitTestIOS[398:5d03] Hematology
+2013-04-01 17:03:55.303 UnitTestIOS[398:5d03] Medical Oncology
+2013-04-01 17:03:55.304 UnitTestIOS[398:5d03] Neonatal-Perinatal Medicine
+2013-04-01 17:03:55.305 UnitTestIOS[398:5d03] Maternal & Fetal Medicine
+2013-04-01 17:03:55.305 UnitTestIOS[398:5d03] Psychiatry
+2013-04-01 17:03:55.306 UnitTestIOS[398:5d03] Gastroenterology
+2013-04-01 17:03:55.307 UnitTestIOS[398:5d03] Hospitalist
+2013-04-01 17:03:55.308 UnitTestIOS[398:5d03] Gynecology
+2013-04-01 17:03:55.309 UnitTestIOS[398:5d03] Pediatric Internal Medicine
+2013-04-01 17:03:55.310 UnitTestIOS[398:5d03] Radiation Oncology
+2013-04-01 17:03:55.312 UnitTestIOS[398:5d03] Nuclear Radiology
+2013-04-01 17:03:55.313 UnitTestIOS[398:5d03] Therapeutic Radiology
+2013-04-01 17:03:55.314 UnitTestIOS[398:5d03] Body Imaging
+2013-04-01 17:03:55.314 UnitTestIOS[398:5d03] Pediatric Radiology
+2013-04-01 17:03:55.315 UnitTestIOS[398:5d03] Vascular & Interventional Radiology
+2013-04-01 17:03:55.317 UnitTestIOS[398:5d03] Neuroradiology
+2013-04-01 17:03:55.319 UnitTestIOS[398:5d03] Musculoskeletal Radiology
+2013-04-01 17:03:55.320 UnitTestIOS[398:5d03] Child Psychiatry
+2013-04-01 17:03:55.321 UnitTestIOS[398:5d03] Family Practice
+2013-04-01 17:03:55.322 UnitTestIOS[398:5d03] Critical Care (Intensivists)
+2013-04-01 17:03:55.323 UnitTestIOS[398:5d03] Pulmonary Disease
+2013-04-01 17:03:55.324 UnitTestIOS[398:5d03] Geriatric Medicine
+2013-04-01 17:03:55.325 UnitTestIOS[398:5d03] Vascular Neurology
+2013-04-01 17:03:55.326 UnitTestIOS[398:5d03] Clinical Neurophysiology
+2013-04-01 17:03:55.328 UnitTestIOS[398:5d03] Urology
+2013-04-01 17:03:55.329 UnitTestIOS[398:5d03] Gynecology / Oncology
+2013-04-01 17:03:55.331 UnitTestIOS[398:5d03] Vascular Surgery
+2013-04-01 17:03:55.332 UnitTestIOS[398:5d03] Thoracic Surgery
+2013-04-01 17:03:55.333 UnitTestIOS[398:5d03] Cardiac Surgery
+2013-04-01 17:03:55.334 UnitTestIOS[398:5d03] Physical Medicine and Rehabilitation
+2013-04-01 17:03:55.335 UnitTestIOS[398:5d03] Pulmonary Critical Care
+2013-04-01 17:03:55.336 UnitTestIOS[398:5d03] Cardiology
+2013-04-01 17:03:55.337 UnitTestIOS[398:5d03] Interventional Cardiology
+2013-04-01 17:03:55.338 UnitTestIOS[398:5d03] Clinical Cardiac Electrophysiology
+2013-04-01 17:03:55.339 UnitTestIOS[398:5d03] Pain Management
+2013-04-01 17:03:55.340 UnitTestIOS[398:5d03] Forensic Pathology
+2013-04-01 17:03:55.350 UnitTestIOS[398:5d03] Hospice and Palliative Medicine
+2013-04-01 17:03:55.352 UnitTestIOS[398:5d03] Pediatric Gastroenterology
+2013-04-01 17:03:55.353 UnitTestIOS[398:5d03] General Practice
+2013-04-01 17:03:55.354 UnitTestIOS[398:5d03] Otolaryngology
+2013-04-01 17:03:55.354 UnitTestIOS[398:5d03] Plastic Reconstructive Surgery 
+2013-04-01 17:03:55.355 UnitTestIOS[398:5d03] Sleep Medicine
+2013-04-01 17:03:55.356 UnitTestIOS[398:5d03] Hepatology
+2013-04-01 17:03:55.357 UnitTestIOS[398:5d03] Endocrinology
+2013-04-01 17:03:55.358 UnitTestIOS[398:5d03] Diabetes Specialist
+2013-04-01 17:03:55.359 UnitTestIOS[398:5d03] Pediatric Critical Care
+2013-04-01 17:03:55.360 UnitTestIOS[398:5d03] Pediatric Surgery
+2013-04-01 17:03:55.362 UnitTestIOS[398:5d03] Nephrology
+2013-04-01 17:03:55.363 UnitTestIOS[398:5d03] Transplant Surgery
+2013-04-01 17:03:55.365 UnitTestIOS[398:5d03] Laboratory Medicine
+2013-04-01 17:03:55.366 UnitTestIOS[398:5d03] Pediatric Endocrinology
+2013-04-01 17:03:55.367 UnitTestIOS[398:5d03] Addiction Psychiatry
+2013-04-01 17:03:55.368 UnitTestIOS[398:5d03] Undersea and Hyperbaric Medicine
+2013-04-01 17:03:55.369 UnitTestIOS[398:5d03] Colorectal Surgery (formerly Proctology)
+2013-04-01 17:03:55.370 UnitTestIOS[398:5d03] Nuclear Medicine
+2013-04-01 17:03:55.371 UnitTestIOS[398:5d03] Plastic Surgery
+2013-04-01 17:03:55.372 UnitTestIOS[398:5d03] Hand Surgery
+2013-04-01 17:03:55.373 UnitTestIOS[398:5d03] Aerospace Medicine
+2013-04-01 17:03:55.374 UnitTestIOS[398:5d03] Sports Medicine
+2013-04-01 17:03:55.375 UnitTestIOS[398:5d03] Adolescent Medicine
+2013-04-01 17:03:55.376 UnitTestIOS[398:5d03] Urological Surgery
+2013-04-01 17:03:55.377 UnitTestIOS[398:5d03] Interventional Pain Management
+2013-04-01 17:03:55.378 UnitTestIOS[398:5d03] Maxillofacial Surgery
+2013-04-01 17:03:55.379 UnitTestIOS[398:5d03] Obstetrics
+2013-04-01 17:03:55.380 UnitTestIOS[398:5d03] Rheumatology
+2013-04-01 17:03:55.381 UnitTestIOS[398:5d03] Neuromusculoskeletal Medicine
+2013-04-01 17:03:55.382 UnitTestIOS[398:5d03] Geriatric Psychiatry
+2013-04-01 17:03:55.382 UnitTestIOS[398:5d03] Nuclear Cardiology
+2013-04-01 17:03:55.383 UnitTestIOS[398:5d03] Psychosomatic Medicine
+2013-04-01 17:03:55.385 UnitTestIOS[398:5d03] Neuropsychiatry
+2013-04-01 17:03:55.385 UnitTestIOS[398:5d03] Pediatric Pathology
+2013-04-01 17:03:55.387 UnitTestIOS[398:5d03] Trauma Surgery
+2013-04-01 17:03:55.388 UnitTestIOS[398:5d03] Orthopedic Foot & Ankle Surgery
+2013-04-01 17:03:55.389 UnitTestIOS[398:5d03] Pediatric Nephrology
+2013-04-01 17:03:55.389 UnitTestIOS[398:5d03] Abdominal Radiology
+2013-04-01 17:03:55.390 UnitTestIOS[398:5d03] Public Health Medicine
+2013-04-01 17:03:55.391 UnitTestIOS[398:5d03] Pediatric Cardiology
+2013-04-01 17:03:55.392 UnitTestIOS[398:5d03] Orthopedic Reconstructive Surgery
+2013-04-01 17:03:55.393 UnitTestIOS[398:5d03] Addiction Medicine
+2013-04-01 17:03:55.394 UnitTestIOS[398:5d03] Plastic Reconstructive Surgery
+2013-04-01 17:03:55.395 UnitTestIOS[398:5d03] Occupational Medicine
+2013-04-01 17:03:55.396 UnitTestIOS[398:5d03] Head & Neck Surgery
+2013-04-01 17:03:55.397 UnitTestIOS[398:5d03] Neuropathology
+2013-04-01 17:03:55.398 UnitTestIOS[398:5d03] Preventive Medicine
+2013-04-01 17:03:55.399 UnitTestIOS[398:5d03] Clinical Pharmacology
+2013-04-01 17:03:55.400 UnitTestIOS[398:5d03] Otology & Neurotology
+2013-04-01 17:03:55.401 UnitTestIOS[398:5d03] Pediatric Anesthesiology
+2013-04-01 17:03:55.402 UnitTestIOS[398:5d03] Dermatopathology
+2013-04-01 17:03:55.403 UnitTestIOS[398:5d03] Pediatric Orthopedic Surgery
+2013-04-01 17:03:55.404 UnitTestIOS[398:5d03] Child Neurology
+2013-04-01 17:03:55.405 UnitTestIOS[398:5d03] Allergy / Immunology
+2013-04-01 17:03:55.406 UnitTestIOS[398:5d03] Orthopedic Spine Surgery
+2013-04-01 17:03:55.407 UnitTestIOS[398:5d03] Pediatric Urology
+2013-04-01 17:03:55.408 UnitTestIOS[398:5d03] Pediatric Pulmonology
+2013-04-01 17:03:55.409 UnitTestIOS[398:5d03] Surgical Critical Care
+2013-04-01 17:03:55.409 UnitTestIOS[398:5d03] Pediatric Emergency Medicine
+2013-04-01 17:03:55.411 UnitTestIOS[398:5d03] Facial Plastic Surgery
+2013-04-01 17:03:55.412 UnitTestIOS[398:5d03] Adult Medicine
+2013-04-01 17:03:55.413 UnitTestIOS[398:5d03] Medical Toxicology
+2013-04-01 17:03:55.414 UnitTestIOS[398:5d03] Pediatric Dermatology
+2013-04-01 17:03:55.415 UnitTestIOS[398:5d03] Interventional Radiology
+2013-04-01 17:03:55.416 UnitTestIOS[398:5d03] Urgent Care
+2013-04-01 17:03:55.417 UnitTestIOS[398:5d03] Legal Medicine
+2013-04-01 17:03:55.418 UnitTestIOS[398:5d03] Medical Microbiology
+2013-04-01 17:03:55.419 UnitTestIOS[398:5d03] Clinical Genetics 
+2013-04-01 17:03:55.420 UnitTestIOS[398:5d03] Genetics Specialist
+2013-04-01 17:03:55.421 UnitTestIOS[398:5d03] Neonatology
+2013-04-01 17:03:55.421 UnitTestIOS[398:5d03] Blood Banking & Transfusion Medicine
+2013-04-01 17:03:55.422 UnitTestIOS[398:5d03] Diagnostic Neuroimaging
+2013-04-01 17:03:55.423 UnitTestIOS[398:5d03] Procedural Dermatology
+2013-04-01 17:03:55.424 UnitTestIOS[398:5d03] Abdominal Surgery
+2013-04-01 17:03:55.425 UnitTestIOS[398:5d03] Immunology
+2013-04-01 17:03:55.426 UnitTestIOS[398:5d03] Bariatrician
+2013-04-01 17:03:55.427 UnitTestIOS[398:5d03] Pediatric Rheumatology
+2013-04-01 17:03:55.428 UnitTestIOS[398:5d03] Nuclear Imaging & Therapy
+2013-04-01 17:03:55.429 UnitTestIOS[398:5d03] Surgical Oncology
+2013-04-01 17:03:55.535 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.IsolatedStorage]
+2013-04-01 17:03:55.538 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:55.540 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:55.547 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:55.552 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:55.557 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:55 PM]
+2013-04-01 17:03:55.558 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:55.575 UnitTestIOS[398:c07] 	[PASS] IsolatedStorage
+2013-04-01 17:03:55.579 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:57.854 UnitTestIOS[398:c07] [Runner executing:	UnitTestIOS.UnitTest.GetMedicalProviders]
+2013-04-01 17:03:57.858 UnitTestIOS[398:c07] [MonoTouch Version:	6.2.1]
+2013-04-01 17:03:57.859 UnitTestIOS[398:c07] [iPhone Simulator:	iPhone OS v6.1]
+2013-04-01 17:03:57.880 UnitTestIOS[398:c07] [Device Name:	iPhone Simulator]
+2013-04-01 17:03:57.881 UnitTestIOS[398:c07] [Device UDID:	00000000000010008000000c29a9980f00000000]
+2013-04-01 17:03:57.882 UnitTestIOS[398:c07] [Device Date/Time:	4/1/2013 5:03:57 PM]
+2013-04-01 17:03:57.883 UnitTestIOS[398:c07] [Bundle:	com.yourcompany.unittestios]
+2013-04-01 17:03:57.886 UnitTestIOS[398:c07] 	[PASS] GetMedicalProviders
+2013-04-01 17:03:57.890 UnitTestIOS[398:c07] Tests run: 1 Passed: 1 Inconclusive: 0 Failed: 0 Ignored: 0
+2013-04-01 17:03:58.170 UnitTestIOS[398:4803] Nicole Abdy
+2013-04-01 17:03:58.172 UnitTestIOS[398:4803] Thomas Abram
+2013-04-01 17:03:58.173 UnitTestIOS[398:4803] Thomas Abram
+2013-04-01 17:03:58.174 UnitTestIOS[398:4803] Bedri Abubeker
+2013-04-01 17:03:58.175 UnitTestIOS[398:4803] Rodney Adam
+2013-04-01 17:03:58.176 UnitTestIOS[398:4803] Rodney Adam
+2013-04-01 17:03:58.178 UnitTestIOS[398:4803] Marie Adamczyk
+2013-04-01 17:03:58.186 UnitTestIOS[398:4803] Cecilia Adams
+2013-04-01 17:03:58.187 UnitTestIOS[398:4803] Seth Adams
+2013-04-01 17:03:58.188 UnitTestIOS[398:4803] Ilana Addis
+2013-04-01 17:03:58.189 UnitTestIOS[398:4803] Albert Adler
+2013-04-01 17:03:58.190 UnitTestIOS[398:4803] Dorit Adler
+2013-04-01 17:03:58.191 UnitTestIOS[398:4803] Dorit Adler
+2013-04-01 17:03:58.193 UnitTestIOS[398:4803] Lawrence Adler
+2013-04-01 17:03:58.194 UnitTestIOS[398:4803] Carrie Adrion
+2013-04-01 17:03:58.195 UnitTestIOS[398:4803] Peter Afsari
+2013-04-01 17:03:58.196 UnitTestIOS[398:4803] Mridula Aggarwal
+2013-04-01 17:03:58.197 UnitTestIOS[398:4803] Mridula Aggarwal
+2013-04-01 17:03:58.198 UnitTestIOS[398:4803] Mridula Aggarwal
+2013-04-01 17:03:58.199 UnitTestIOS[398:4803] Abram Aguilar
+2013-04-01 17:03:58.200 UnitTestIOS[398:4803] Abram Aguilar
+2013-04-01 17:03:58.201 UnitTestIOS[398:4803] James Aguilar
+2013-04-01 17:03:58.202 UnitTestIOS[398:4803] Michelle Aguilar
+2013-04-01 17:03:58.204 UnitTestIOS[398:4803] Denise Ahearn
+2013-04-01 17:03:58.205 UnitTestIOS[398:4803] Geoffrey Ahern
 Terminating in response to SpringBoard's termination.

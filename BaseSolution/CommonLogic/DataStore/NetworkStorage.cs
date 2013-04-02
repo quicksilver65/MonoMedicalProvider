@@ -69,7 +69,7 @@ namespace CommonLogic
         public void GetMedicalProviders(List<SearchCriteria> criteria)
         {
             var criteriaData = JsonConvert.SerializeObject(criteria.ToArray());
-            var bytes = Encoding.Default.GetBytes(criteriaData);
+            var bytes = Encoding.ASCII.GetBytes(criteriaData);
             string url = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetProvidersByDimensionCollection";
 
             rest.Post(url, bytes, (content) =>
