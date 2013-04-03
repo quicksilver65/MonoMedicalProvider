@@ -80,6 +80,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Desktop\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -95,6 +98,21 @@
     <Compile Include="SecondViewController.designer.cs">
       <DependentUpon>SecondViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="..\CommonLogic\DataStore\FileStorage.cs">
+      <Link>DataStore\FileStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\DataStore\NetworkStorage.cs">
+      <Link>DataStore\NetworkStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\LatLong.cs">
+      <Link>Models\LatLong.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\MedialProvider.cs">
+      <Link>Models\MedialProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
+      <Link>Models\SearchCriteria.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -106,4 +124,8 @@
     <BundleResource Include="Resources\second%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="DataStore\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
