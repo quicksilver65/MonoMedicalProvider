@@ -90,14 +90,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="FirstViewController.cs" />
-    <Compile Include="SecondViewController.cs" />
-    <Compile Include="FirstViewController.designer.cs">
-      <DependentUpon>FirstViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="..\CommonLogic\DataStore\FileStorage.cs">
       <Link>DataStore\FileStorage.cs</Link>
     </Compile>
@@ -113,6 +105,14 @@
     <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
       <Link>Models\SearchCriteria.cs</Link>
     </Compile>
+    <Compile Include="Controllers\FirstViewController.cs" />
+    <Compile Include="Controllers\FirstViewController.designer.cs">
+      <DependentUpon>FirstViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SecondViewController.cs" />
+    <Compile Include="Controllers\SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -127,5 +127,7 @@
   <ItemGroup>
     <Folder Include="DataStore\" />
     <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
