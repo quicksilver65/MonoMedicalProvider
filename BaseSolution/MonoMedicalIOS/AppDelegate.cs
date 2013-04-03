@@ -33,12 +33,12 @@ namespace MonoMedicalIOS
 		{
 		}
 		
-		/// This method is called as part of the transiton from background to active state.
+		// This method is called as part of the transiton from background to active state.
 		public override void WillEnterForeground (UIApplication application)
 		{
 		}
 		
-		/// This method is called when the application is about to terminate. Save data, if needed. 
+		// This method is called when the application is about to terminate. Save data, if needed. 
 		public override void WillTerminate (UIApplication application)
 		{
 		}

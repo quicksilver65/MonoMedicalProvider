@@ -7,11 +7,12 @@ using MonoTouch.Foundation;
 
 namespace MonoMedicalIOS
 {
-	[Register ("MonoMedicalIOSViewController")]
-	partial class MonoMedicalIOSViewController
+	[Register ("FirstViewController")]
+	partial class FirstViewController
 	{
 		void ReleaseDesignerOutlets ()
 		{
 		}
 	}
 }
+

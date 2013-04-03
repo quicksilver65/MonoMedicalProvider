@@ -6,10 +6,12 @@ using MonoTouch.UIKit;
 
 namespace MonoMedicalIOS
 {
-	public partial class MonoMedicalIOSViewController : UIViewController
+	public partial class FirstViewController : UIViewController
 	{
-		public MonoMedicalIOSViewController (IntPtr handle) : base (handle)
+		public FirstViewController (IntPtr handle) : base (handle)
 		{
+			Title = NSBundle.MainBundle.LocalizedString ("First", "First");
+			TabBarItem.Image = UIImage.FromBundle ("first");
 		}
 		
 		public override void DidReceiveMemoryWarning ()

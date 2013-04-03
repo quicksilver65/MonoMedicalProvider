@@ -3,9 +3,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>12.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A56A505A-DE11-41FE-B273-C6B9217BF445}</ProjectGuid>
+    <ProjectGuid>{548EA847-D285-43FA-9172-9C420DBF057A}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>MonoMedicalIOS</RootNamespace>
@@ -80,14 +80,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\Desktop\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-    <Folder Include="DataStore\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -95,31 +87,23 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="MonoMedicalIOSViewController.cs" />
-    <Compile Include="MonoMedicalIOSViewController.designer.cs">
-      <DependentUpon>MonoMedicalIOSViewController.cs</DependentUpon>
+    <Compile Include="FirstViewController.cs" />
+    <Compile Include="SecondViewController.cs" />
+    <Compile Include="FirstViewController.designer.cs">
+      <DependentUpon>FirstViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="..\CommonLogic\DataStore\FileStorage.cs">
-      <Link>DataStore\FileStorage.cs</Link>
-    </Compile>
-    <Compile Include="..\CommonLogic\DataStore\NetworkStorage.cs">
-      <Link>DataStore\NetworkStorage.cs</Link>
-    </Compile>
-    <Compile Include="..\CommonLogic\ViewModel.cs">
-      <Link>ViewModel.cs</Link>
-    </Compile>
-    <Compile Include="..\CommonLogic\Models\MedialProvider.cs">
-      <Link>Models\MedialProvider.cs</Link>
-    </Compile>
-    <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
-      <Link>Models\SearchCriteria.cs</Link>
-    </Compile>
-    <Compile Include="..\CommonLogic\Models\LatLong.cs">
-      <Link>Models\LatLong.cs</Link>
+    <Compile Include="SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\first.png" />
+    <BundleResource Include="Resources\first%402x.png" />
+    <BundleResource Include="Resources\second.png" />
+    <BundleResource Include="Resources\second%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
