@@ -31,7 +31,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\Downloads\Json45r11\Bin\Net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\Desktop\Json40r8\Bin\Net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

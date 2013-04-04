@@ -4,13 +4,34 @@ using System;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using CommonLogic;
+using System.Collections.Generic;
 
 namespace MonoMedicalIOS
 {
+	public interface AppModelInterface{
+		ViewModel AppModel{get;set;}
+	}
+
 	public partial class MainTab : UITabBarController
 	{
+		private ViewModel appModel;
+
 		public MainTab (IntPtr handle) : base (handle)
 		{
+			appModel = new ViewModel();
+		}
+
+		public override void ViewDidLoad ()
+		{
+
+			base.ViewDidLoad ();
+		
+			foreach(AppModelInterface item in this.ViewControllers){
+				item.AppModel=appModel;
+			}
+
+			this.TabBar.Items[2].BadgeValue="3";
 		}
 	}
 }

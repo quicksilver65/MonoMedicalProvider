@@ -112,6 +112,9 @@
     <Compile Include="..\CommonLogic\Models\LatLong.cs">
       <Link>Models\LatLong.cs</Link>
     </Compile>
+    <Compile Include="..\CommonLogic\ViewModel.cs">
+      <Link>Models\ViewModel.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

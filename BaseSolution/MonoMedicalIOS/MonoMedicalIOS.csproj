@@ -83,6 +83,10 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\Desktop\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="FlyoutNavigation">
+      <HintPath>..\Components\flyoutnavigation-1.1\lib\ios\FlyoutNavigation.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTouch.Dialog-1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -105,13 +109,24 @@
     <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
       <Link>Models\SearchCriteria.cs</Link>
     </Compile>
-    <Compile Include="Controllers\FirstViewController.cs" />
-    <Compile Include="Controllers\FirstViewController.designer.cs">
-      <DependentUpon>FirstViewController.cs</DependentUpon>
+    <Compile Include="Controllers\Favorites.cs" />
+    <Compile Include="Controllers\Favorites.designer.cs">
+      <DependentUpon>Favorites.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\SecondViewController.cs" />
-    <Compile Include="Controllers\SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
+    <Compile Include="Controllers\Home.cs" />
+    <Compile Include="Controllers\Home.designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Search.cs" />
+    <Compile Include="Controllers\Search.designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MainTab.cs" />
+    <Compile Include="Controllers\MainTab.designer.cs">
+      <DependentUpon>MainTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\CommonLogic\ViewModel.cs">
+      <Link>Models\ViewModel.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +137,11 @@
     <BundleResource Include="Resources\first%402x.png" />
     <BundleResource Include="Resources\second.png" />
     <BundleResource Include="Resources\second%402x.png" />
+    <BundleResource Include="Images\info.png" />
+    <BundleResource Include="Images\search.png" />
+    <BundleResource Include="Images\star.png" />
+    <BundleResource Include="Images\house.png" />
+    <BundleResource Include="Images\CadueusGrey.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -129,5 +149,12 @@
     <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="flyoutnavigation">
+      <InstallationInProgress>False</InstallationInProgress>
+      <Version>1.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>

@@ -1,15 +1,28 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalDroid/Properties/AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/Search.cs">
     <Files>
-      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="4" Column="7" />
+      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="1" Column="1" />
       <File FileName="MonoMedicalDroid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Main.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Home.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Favorites.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="51" Column="36" />
+      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MonoMedicalDroid" expanded="True" selected="True">
+          <Node name="CommonLogic" expanded="True">
+            <Node name="DataStore" expanded="True" />
+          </Node>
+          <Node name="MonoMedicalDroid" expanded="True">
             <Node name="Properties" expanded="True" />
+          </Node>
+          <Node name="MonoMedicalIOS" expanded="True" selected="True">
+            <Node name="Controllers" expanded="True" />
+            <Node name="Images" expanded="True" />
           </Node>
         </State>
       </Pad>

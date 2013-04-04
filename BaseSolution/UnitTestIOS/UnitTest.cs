@@ -11,6 +11,13 @@ namespace UnitTestIOS
 	public class UnitTest
 	{
 		[Test]
+		public void TestViewModel(){
+			var vm = new ViewModel();
+			Assert.AreNotEqual(0,vm.Favorites.Count);
+
+		}
+
+		[Test]
 		public void GetLatLong(){
 			var net =new NetworkStorage();
 			net.LatLongRetrievedCompleted+=(data)=>{

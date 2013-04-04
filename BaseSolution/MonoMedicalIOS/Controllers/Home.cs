@@ -4,13 +4,25 @@ using System;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using CommonLogic;
 
 namespace MonoMedicalIOS
 {
-	public partial class Home : UIViewController
+	public partial class Home : UIViewController,AppModelInterface
 	{
+		public ViewModel AppModel {
+			get;
+			set;
+		}
+
 		public Home (IntPtr handle) : base (handle)
 		{
+		}
+
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
+		
 		}
 	}
 }
