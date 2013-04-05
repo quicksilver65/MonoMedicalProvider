@@ -13,7 +13,17 @@ namespace UnitTestIOS
 		[Test]
 		public void TestViewModel(){
 			var vm = new ViewModel();
-			Assert.AreNotEqual(0,vm.Favorites.Count);
+			vm.ResourcesLoaded+=(e,a)=>{
+				foreach(var str in vm.Cities)
+					Debug.WriteLine(str);
+				foreach(var str in vm.Specialties)
+					Debug.WriteLine(str);
+				Assert.AreNotEqual(0,vm.Specialties.Count);
+				Assert.AreNotEqual(0,vm.Cities.Count);
+				Assert.AreNotEqual(0,vm.Favorites.Count);	
+			};
+			IsolatedStorage();
+			vm.InitResources();
 
 		}
 

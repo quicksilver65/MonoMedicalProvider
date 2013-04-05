@@ -7,9 +7,11 @@ using MonoTouch.UIKit;
 using FlyoutNavigation;
 using MonoTouch.Dialog;
 using CommonLogic;
+using System.Drawing;
 
 namespace MonoMedicalIOS
 {
+
 	public partial class Search : UIViewController,AppModelInterface
 	{
 		public ViewModel AppModel {
@@ -24,7 +26,17 @@ namespace MonoMedicalIOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			this.txtCities.Text=AppModel.Cities.Count.ToString();
+
+
+
+
+		}
+
+		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			base.PrepareForSegue (segue, sender);
+			var contoller = segue.DestinationViewController as AppModelInterface;
+			contoller.AppModel=this.AppModel;
 		}
 	
 	}
