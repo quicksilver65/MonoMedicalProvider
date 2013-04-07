@@ -133,9 +133,17 @@
       <DependentUpon>CitiesTableController.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\TableSource.cs" />
-    <Compile Include="Controllers\SpecialtiesTableController.cs" />
-    <Compile Include="Controllers\SpecialtiesTableController.designer.cs">
-      <DependentUpon>SpecialtiesTableController.cs</DependentUpon>
+    <Compile Include="Controllers\DirectionsController.cs" />
+    <Compile Include="Controllers\DirectionsController.designer.cs">
+      <DependentUpon>DirectionsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SpecialtyTableController.cs" />
+    <Compile Include="Controllers\SpecialtyTableController.designer.cs">
+      <DependentUpon>SpecialtyTableController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MedProviderTableController.cs" />
+    <Compile Include="Controllers\MedProviderTableController.designer.cs">
+      <DependentUpon>MedProviderTableController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

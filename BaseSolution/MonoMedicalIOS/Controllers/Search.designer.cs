@@ -19,6 +19,7 @@ namespace MonoMedicalIOS
 
 		[Outlet]
 		MonoTouch.UIKit.UITextField txtProviderName { get; set; }
+
 		
 		void ReleaseDesignerOutlets ()
 		{

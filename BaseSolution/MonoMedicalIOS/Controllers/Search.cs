@@ -27,21 +27,33 @@ namespace MonoMedicalIOS
 		{
 			base.ViewDidLoad ();
 			AppModel.ProviderSearchCriteria.PropertyChanged+=(sender,args)=>{
-				if(args.PropertyName=="City")
-					txtCity.Text=AppModel.ProviderSearchCriteria.City;
+				switch(args.PropertyName){
+					case "City":
+						txtCity.Text=AppModel.ProviderSearchCriteria.City;
+						break;
+					case "Specialty":
+						txtSpecialty.Text=AppModel.ProviderSearchCriteria.Specialty;
+						break;
+				}
+			
 			};
 		}
 
 		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
 		{
 			base.PrepareForSegue (segue, sender);
+			AppModel.ProviderSearchCriteria.Name=txtProviderName.Text;
 			var controller = segue.DestinationViewController as AppModelInterface;
 			controller.AppModel=this.AppModel;
 		}
 
-		public void BindProviderSearchFields(){
-
+		public override void TouchesBegan (NSSet touches, UIEvent evt)
+		{
+			base.TouchesBegan (touches, evt);
+			this.View.EndEditing(true);
 		}
+
+
 	
 	}
 }

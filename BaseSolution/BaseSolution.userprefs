@@ -1,26 +1,29 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CommonLogic/Models/SearchCriteria.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/MedProviderTableController.cs">
     <Files>
-      <File FileName="CommonLogic/ViewModel.cs" Line="108" Column="35" />
-      <File FileName="CommonLogic/Models/SearchCriteria.cs" Line="11" Column="23" />
-      <File FileName="CommonLogic/DataStore/NetworkStorage.cs" Line="63" Column="10" />
-      <File FileName="UnitTestIOS/UnitTest.cs" Line="29" Column="4" />
-      <File FileName="CommonLogic/Models/MedialProvider.cs" Line="17" Column="8" />
-      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="28" Column="44" />
-      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="29" Column="34" />
-      <File FileName="UnitTestIOS/Main.cs" Line="21" Column="1" />
-      <File FileName="CommonLogic/Models/LatLong.cs" Line="5" Column="22" />
+      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="44" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Search.designer.cs" Line="22" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/MedProviderTableController.cs" Line="43" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/MedProviderTableController.designer.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/CitiesTableController.cs" Line="29" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/TableSource.cs" Line="49" Column="34" />
+      <File FileName="CommonLogic/DataStore/NetworkStorage.cs" Line="83" Column="1" />
+      <File FileName="CommonLogic/ViewModel.cs" Line="119" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Home.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="31" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
-          <Node name="CommonLogic" expanded="True">
-            <Node name="References" expanded="True" />
+        <State expanded="True">
+          <Node name="CommonLogic" expanded="True" />
+          <Node name="MonoMedicalIOS" expanded="True">
+            <Node name="Controllers" expanded="True">
+              <Node name="MedProviderTableController.cs" selected="True" />
+            </Node>
             <Node name="DataStore" expanded="True" />
             <Node name="Models" expanded="True" />
           </Node>
-          <Node name="MonoMedicalIOS" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -36,6 +39,12 @@
       <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="19" column="1" />
       <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="22" column="38" />
       <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="24" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/ProviderTableController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/ProviderTableController.cs" line="29" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/ViewModel.cs" line="119" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/DataStore/NetworkStorage.cs" line="78" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/DataStore/NetworkStorage.cs" line="83" column="1" />
+      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/MedProviderTableController.cs" line="33" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

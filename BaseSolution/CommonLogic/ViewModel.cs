@@ -115,6 +115,10 @@ namespace CommonLogic
 
 		}
 
+		public void SearchForProviders(){
+			ns.GetMedicalProviders(this.ProviderSearchCriteria);
+		}
+
 		public void AddFavorite(MedicalProvider provider){
 
 			if(!Favorites.Any(x=>x.id==provider.id)){

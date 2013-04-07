@@ -35,7 +35,7 @@ namespace UnitTestIOS
 		{
 			var vm = new ViewModel ();
 			vm.InitResources ();
-			vm.Favorites.CollectionChanged += (sender,args) => {
+			vm.FavoritesUpdated += (sender,args) => {
 				Assert.AreNotEqual (0, vm.Favorites.Count);
 			};
 
