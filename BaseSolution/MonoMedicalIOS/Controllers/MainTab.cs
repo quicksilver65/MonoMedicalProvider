@@ -26,19 +26,12 @@ namespace MonoMedicalIOS
 		{
 
 			base.ViewDidLoad ();
-			appModel.ResourcesLoaded+=(e,a)=>{
-				this.BeginInvokeOnMainThread(delegate {
-					foreach(AppModelInterface item in this.ViewControllers){
-						item.AppModel=appModel;
-					}
-					if(this.appModel.Favorites!=null){
-						this.TabBar.Items[2].BadgeValue= appModel.Favorites.Count.ToString();
-					}
-				});
-			};
-			//put something here for a spinner
-			appModel.InitResources();
 		
+			foreach(AppModelInterface item in this.ViewControllers){
+				item.AppModel=appModel;
+			}
+
+			this.TabBar.Items[2].BadgeValue="3";
 		}
 	}
 }

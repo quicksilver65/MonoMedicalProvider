@@ -128,10 +128,6 @@
     <Compile Include="..\CommonLogic\ViewModel.cs">
       <Link>Models\ViewModel.cs</Link>
     </Compile>
-    <Compile Include="Controllers\CitiesTableController.cs" />
-    <Compile Include="Controllers\CitiesTableController.designer.cs">
-      <DependentUpon>CitiesTableController.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

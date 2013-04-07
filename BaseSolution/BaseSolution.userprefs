@@ -1,28 +1,28 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/CitiesTableController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/Search.cs">
     <Files>
-      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="39" Column="37" />
-      <File FileName="MonoMedicalIOS/Controllers/Favorites.cs" Line="11" Column="69" />
-      <File FileName="MonoMedicalIOS/Controllers/Search.designer.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/CitiesTableController.designer.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/CitiesTableController.cs" Line="28" Column="52" />
+      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalDroid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Main.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Home.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Favorites.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="51" Column="36" />
+      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="CommonLogic" expanded="True">
-            <Node name="References" expanded="True" />
             <Node name="DataStore" expanded="True" />
-            <Node name="Models" expanded="True" />
+          </Node>
+          <Node name="MonoMedicalDroid" expanded="True">
+            <Node name="Properties" expanded="True" />
           </Node>
           <Node name="MonoMedicalIOS" expanded="True" selected="True">
             <Node name="Controllers" expanded="True" />
             <Node name="Images" expanded="True" />
-            <Node name="Models" expanded="True" />
-          </Node>
-          <Node name="UnitTestIOS" expanded="True">
-            <Node name="Models" expanded="True" />
           </Node>
         </State>
       </Pad>
