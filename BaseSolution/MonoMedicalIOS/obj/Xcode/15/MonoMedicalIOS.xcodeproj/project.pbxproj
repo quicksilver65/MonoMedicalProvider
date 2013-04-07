@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41AA9400000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA7F6480000000000000000 /* UIKit.framework */; };
+		6B09DF600000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C16E9AA0000000000000000 /* MapKit.framework */; };
+		31F915800000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1885DD0C0000000000000000 /* Foundation.framework */; };
+		8F0D67700000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81E31500000000000000000 /* CoreGraphics.framework */; };
+		9DBE45C00000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4D06E0000000000000000 /* MainStoryboard.storyboard */; };
+		64AD7BE00000000000000000 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1163C3D00000000000000000 /* first.png */; };
+		2B9CB2000000000000000000 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2B73200000000000000000 /* first@2x.png */; };
+		3F28BE820000000000000000 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E84BA0000000000000000 /* second.png */; };
+		3B97B1E40000000000000000 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BFD781C0000000000000000 /* second@2x.png */; };
+		3BCA95000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 386C6B7E0000000000000000 /* AppDelegate.h */; };
+		383988620000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5EE00000000000000000 /* AppDelegate.m */; };
+		34A87BC40000000000000000 /* Favorites.h in Sources */ = {isa = PBXBuildFile; fileRef = 314A52420000000000000000 /* Favorites.h */; };
+		31176F260000000000000000 /* Favorites.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB945A40000000000000000 /* Favorites.m */; };
+		2D8662880000000000000000 /* Home.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A2839060000000000000000 /* Home.h */; };
+		29F555EA0000000000000000 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 26972C680000000000000000 /* Home.m */; };
+		2664494C0000000000000000 /* Search.h in Sources */ = {isa = PBXBuildFile; fileRef = 23061FCA0000000000000000 /* Search.h */; };
+		22D33CAE0000000000000000 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75132C0000000000000000 /* Search.m */; };
+		1F4230100000000000000000 /* MainTab.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BE4068E0000000000000000 /* MainTab.h */; };
+		1BB123720000000000000000 /* MainTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852F9F00000000000000000 /* MainTab.m */; };
+		182016D40000000000000000 /* CitiesTableController.h in Sources */ = {isa = PBXBuildFile; fileRef = 14C1ED520000000000000000 /* CitiesTableController.h */; };
+		148F0A360000000000000000 /* CitiesTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1130E0B40000000000000000 /* CitiesTableController.m */; };
+		10FDFD980000000000000000 /* SpecialtiesTableController.h in Sources */ = {isa = PBXBuildFile; fileRef = D9FD41600000000000000000 /* SpecialtiesTableController.h */; };
+		D6CF0FA00000000000000000 /* SpecialtiesTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC77800000000000000000 /* SpecialtiesTableController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		233902E60000000000000000 /* MonoMedicalIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MonoMedicalIOS.app"; path = "MonoMedicalIOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA7F6480000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		1C16E9AA0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1885DD0C0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		C81E31500000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		14F4D06E0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		1163C3D00000000000000000 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first.png"; path = "first.png"; sourceTree = "<group>"; };
+		DD2B73200000000000000000 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "first@2x.png"; sourceTree = "<group>"; };
+		3F8E84BA0000000000000000 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second.png"; path = "second.png"; sourceTree = "<group>"; };
+		3BFD781C0000000000000000 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "second@2x.png"; sourceTree = "<group>"; };
+		386C6B7E0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		34DB5EE00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		314A52420000000000000000 /* Favorites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Favorites.h"; path = "Favorites.h"; sourceTree = "<group>"; };
+		2DB945A40000000000000000 /* Favorites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Favorites.m"; path = "Favorites.m"; sourceTree = "<group>"; };
+		2A2839060000000000000000 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Home.h"; path = "Home.h"; sourceTree = "<group>"; };
+		26972C680000000000000000 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Home.m"; path = "Home.m"; sourceTree = "<group>"; };
+		23061FCA0000000000000000 /* Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Search.h"; path = "Search.h"; sourceTree = "<group>"; };
+		1F75132C0000000000000000 /* Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Search.m"; path = "Search.m"; sourceTree = "<group>"; };
+		1BE4068E0000000000000000 /* MainTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainTab.h"; path = "MainTab.h"; sourceTree = "<group>"; };
+		1852F9F00000000000000000 /* MainTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainTab.m"; path = "MainTab.m"; sourceTree = "<group>"; };
+		14C1ED520000000000000000 /* CitiesTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CitiesTableController.h"; path = "CitiesTableController.h"; sourceTree = "<group>"; };
+		1130E0B40000000000000000 /* CitiesTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CitiesTableController.m"; path = "CitiesTableController.m"; sourceTree = "<group>"; };
+		D9FD41600000000000000000 /* SpecialtiesTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SpecialtiesTableController.h"; path = "SpecialtiesTableController.h"; sourceTree = "<group>"; };
+		A0EC77800000000000000000 /* SpecialtiesTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SpecialtiesTableController.m"; path = "SpecialtiesTableController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CF27F00000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AA9400000000000000000 /* UIKit.framework in Frameworks */,
+				6B09DF600000000000000000 /* MapKit.framework in Frameworks */,
+				31F915800000000000000000 /* Foundation.framework in Frameworks */,
+				8F0D67700000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115A47520000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				36B3DA3F0000000000000000 /* MonoMedicalIOS */,
+				46445A700000000000000000 /* Frameworks */,
+				1C0D6D2C0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0D6D2C0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233902E60000000000000000 /* MonoMedicalIOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		46445A700000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7F6480000000000000000 /* UIKit.framework */,
+				1C16E9AA0000000000000000 /* MapKit.framework */,
+				1885DD0C0000000000000000 /* Foundation.framework */,
+				C81E31500000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		36B3DA3F0000000000000000 /* MonoMedicalIOS */ = {
+			isa = PBXGroup;
+			children = (
+				386C6B7E0000000000000000 /* AppDelegate.h */,
+				14C1ED520000000000000000 /* CitiesTableController.h */,
+				314A52420000000000000000 /* Favorites.h */,
+				1163C3D00000000000000000 /* first.png */,
+				DD2B73200000000000000000 /* first@2x.png */,
+				2A2839060000000000000000 /* Home.h */,
+				14F4D06E0000000000000000 /* MainStoryboard.storyboard */,
+				1BE4068E0000000000000000 /* MainTab.h */,
+				23061FCA0000000000000000 /* Search.h */,
+				3F8E84BA0000000000000000 /* second.png */,
+				3BFD781C0000000000000000 /* second@2x.png */,
+				D9FD41600000000000000000 /* SpecialtiesTableController.h */,
+				1BDA8A100000000000000000 /* Supporting Files */,
+			);
+			name = "MonoMedicalIOS";
+			sourceTree = "<group>";
+		};
+		1BDA8A100000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DB5EE00000000000000000 /* AppDelegate.m */,
+				1130E0B40000000000000000 /* CitiesTableController.m */,
+				2DB945A40000000000000000 /* Favorites.m */,
+				26972C680000000000000000 /* Home.m */,
+				1852F9F00000000000000000 /* MainTab.m */,
+				1F75132C0000000000000000 /* Search.m */,
+				A0EC77800000000000000000 /* SpecialtiesTableController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7217800000000000000000 /* MonoMedicalIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214D8E8B0000000000000000 /* Build configuration list for PBXNativeTarget "MonoMedicalIOS" */;
+			buildPhases = (
+				3F5BA19E0000000000000000 /* Sources */,
+				37CF27F00000000000000000 /* Frameworks */,
+				2ECAE3C00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MonoMedicalIOS";
+			productName = "MonoMedicalIOS";
+			productReference = 233902E60000000000000000 /* MonoMedicalIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1CDCB90000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3BF3FB9E0000000000000000 /* Build configuration list for PBXProject "MonoMedicalIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 115A47520000000000000000;
+			productRefGroup = 1C0D6D2C0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7217800000000000000000 /* MonoMedicalIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECAE3C00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBE45C00000000000000000 /* MainStoryboard.storyboard in Resources */,
+				64AD7BE00000000000000000 /* first.png in Resources */,
+				2B9CB2000000000000000000 /* first@2x.png in Resources */,
+				3F28BE820000000000000000 /* second.png in Resources */,
+				3B97B1E40000000000000000 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5BA19E0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCA95000000000000000000 /* AppDelegate.h in Sources */,
+				383988620000000000000000 /* AppDelegate.m in Sources */,
+				34A87BC40000000000000000 /* Favorites.h in Sources */,
+				31176F260000000000000000 /* Favorites.m in Sources */,
+				2D8662880000000000000000 /* Home.h in Sources */,
+				29F555EA0000000000000000 /* Home.m in Sources */,
+				2664494C0000000000000000 /* Search.h in Sources */,
+				22D33CAE0000000000000000 /* Search.m in Sources */,
+				1F4230100000000000000000 /* MainTab.h in Sources */,
+				1BB123720000000000000000 /* MainTab.m in Sources */,
+				182016D40000000000000000 /* CitiesTableController.h in Sources */,
+				148F0A360000000000000000 /* CitiesTableController.m in Sources */,
+				10FDFD980000000000000000 /* SpecialtiesTableController.h in Sources */,
+				D6CF0FA00000000000000000 /* SpecialtiesTableController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67DBADA00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		27761A7F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MonoMedicalIOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF3FB9E0000000000000000 /* Build configuration list for PBXProject "MonoMedicalIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DBADA00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		214D8E8B0000000000000000 /* Build configuration list for PBXNativeTarget "MonoMedicalIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27761A7F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A1CDCB90000000000000000 /* Project object */;
+}

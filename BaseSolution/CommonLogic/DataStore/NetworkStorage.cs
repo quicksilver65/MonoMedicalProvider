@@ -3,11 +3,18 @@ using System.Net;
 using Newtonsoft.Json;
 using System.IO;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace CommonLogic
 {
+
+	public class UrlAddresses{
+		public static readonly string GetLatLong = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetLatLong?Id=";
+		public static readonly string GetSpecialties="http://www.azdevelop.net/client/mobileprovider/api/Provider/GetDimensions?field=specialty";
+		public static readonly string GetCities = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetDimensions?field=city";
+		public static readonly string GetMedicalProviders="http://www.azdevelop.net/client/mobileprovider/api/Provider/GetProvidersByDimensionCollection";
+	}
+
     public delegate void MedicalSpecialtiesRetrieved(List<string> collection);
     public delegate void MedicalProviderRetrieved(List<MedicalProvider> collection);
     public delegate void MedicalCitiesRetrieved(List<string> collection);
@@ -29,7 +36,7 @@ namespace CommonLogic
 
         public void GetLatLong(int id)
         {
-            var url = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetLatLong?Id=" + id;
+			var url = UrlAddresses.GetLatLong + id;
 
             rest.Get(url, (content) =>
             {
@@ -41,7 +48,7 @@ namespace CommonLogic
 
         public void GetSpecialties()
         {
-            var url = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetDimensions?field=specialty";
+			var url = UrlAddresses.GetSpecialties;
 
             rest.Get(url, (content) =>
             {
@@ -54,7 +61,7 @@ namespace CommonLogic
 
         public void GetCities()
         {
-            var url = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetDimensions?field=city";
+			var url = UrlAddresses.GetCities;
 
             rest.Get(url, (content) =>
             {
@@ -66,11 +73,10 @@ namespace CommonLogic
 
         }
 
-        public void GetMedicalProviders(List<SearchCriteria> criteria)
+        public void GetMedicalProviders(SearchCriteria criteria)
         {
-            var criteriaData = JsonConvert.SerializeObject(criteria.ToArray());
-            var bytes = Encoding.UTF8.GetBytes(criteriaData);
-            string url = "http://www.azdevelop.net/client/mobileprovider/api/Provider/GetProvidersByDimensionCollection";
+			var bytes = criteria.ConvertToByteArray();
+			string url = UrlAddresses.GetMedicalProviders;
 
             rest.Post(url, bytes, (content) =>
             {

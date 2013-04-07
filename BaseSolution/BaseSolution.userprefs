@@ -1,29 +1,26 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/Search.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommonLogic/Models/SearchCriteria.cs">
     <Files>
-      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalDroid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Main.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/Home.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/Favorites.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="51" Column="36" />
-      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="1" Column="1" />
+      <File FileName="CommonLogic/ViewModel.cs" Line="108" Column="35" />
+      <File FileName="CommonLogic/Models/SearchCriteria.cs" Line="11" Column="23" />
+      <File FileName="CommonLogic/DataStore/NetworkStorage.cs" Line="63" Column="10" />
+      <File FileName="UnitTestIOS/UnitTest.cs" Line="29" Column="4" />
+      <File FileName="CommonLogic/Models/MedialProvider.cs" Line="17" Column="8" />
+      <File FileName="CommonLogic/DataStore/FileStorage.cs" Line="28" Column="44" />
+      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="29" Column="34" />
+      <File FileName="UnitTestIOS/Main.cs" Line="21" Column="1" />
+      <File FileName="CommonLogic/Models/LatLong.cs" Line="5" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="CommonLogic" expanded="True">
+            <Node name="References" expanded="True" />
             <Node name="DataStore" expanded="True" />
+            <Node name="Models" expanded="True" />
           </Node>
-          <Node name="MonoMedicalDroid" expanded="True">
-            <Node name="Properties" expanded="True" />
-          </Node>
-          <Node name="MonoMedicalIOS" expanded="True" selected="True">
-            <Node name="Controllers" expanded="True" />
-            <Node name="Images" expanded="True" />
-          </Node>
+          <Node name="MonoMedicalIOS" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">

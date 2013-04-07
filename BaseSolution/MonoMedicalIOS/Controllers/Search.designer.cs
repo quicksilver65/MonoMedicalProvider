@@ -12,29 +12,29 @@ namespace MonoMedicalIOS
 	partial class Search
 	{
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtSpecialties { get; set; }
+		MonoTouch.UIKit.UITextField txtCity { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtCities { get; set; }
+		MonoTouch.UIKit.UITextField txtSpecialty { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField txtName { get; set; }
+		MonoTouch.UIKit.UITextField txtProviderName { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (txtSpecialties != null) {
-				txtSpecialties.Dispose ();
-				txtSpecialties = null;
+			if (txtCity != null) {
+				txtCity.Dispose ();
+				txtCity = null;
 			}
 
-			if (txtCities != null) {
-				txtCities.Dispose ();
-				txtCities = null;
+			if (txtSpecialty != null) {
+				txtSpecialty.Dispose ();
+				txtSpecialty = null;
 			}
 
-			if (txtName != null) {
-				txtName.Dispose ();
-				txtName = null;
+			if (txtProviderName != null) {
+				txtProviderName.Dispose ();
+				txtProviderName = null;
 			}
 		}
 	}
