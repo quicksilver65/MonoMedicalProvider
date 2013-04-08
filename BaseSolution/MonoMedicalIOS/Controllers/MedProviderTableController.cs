@@ -5,11 +5,17 @@ using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using CommonLogic;
+using System.Collections.Generic;
+using System.Drawing;
+
+
 namespace MonoMedicalIOS
 {
 	public partial class MedProviderTableController : UIViewController, AppModelInterface
 	{
-		private ITableViewSelectedProvider tableSource;
+		//private ITableViewSelectedProvider tableSource;
+		private ProviderTableSource dataSource;
+		private LoadingOverlay loadingOverlay;
 
 		#region AppModelInterface implementation
 		public CommonLogic.ViewModel AppModel {
@@ -28,10 +34,16 @@ namespace MonoMedicalIOS
 		{
 			base.ViewDidLoad ();
 			if(AppModel!=null){
+				loadingOverlay = new LoadingOverlay (UIScreen.MainScreen.Bounds);
+				View.Add (loadingOverlay);
+
+				dataSource = new ProviderTableSource(){ AppModel=this.AppModel};
+				this.MedProviderTable.Source= dataSource;
 				AppModel.ProviderSearchCompleted+=(e,a)=>{
 					this.BeginInvokeOnMainThread(delegate {
-						this.MedProviderTable.Source= new ProviderTableSource(AppModel.ProviderResults.ToArray());
-						tableSource =(ITableViewSelectedProvider) this.MedProviderTable.Source;
+						//dataSource.ProviderList = AppModel.ProviderResults.ToArray();
+						this.MedProviderTable.ReloadData();
+						loadingOverlay.Hide ();
 					});
 				};
 				AppModel.SearchForProviders();
@@ -43,4 +55,5 @@ namespace MonoMedicalIOS
 			DismissViewController(true,null);
 		}
 	}
+
 }

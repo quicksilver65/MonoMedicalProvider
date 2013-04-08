@@ -145,10 +145,11 @@
     <Compile Include="Controllers\MedProviderTableController.designer.cs">
       <DependentUpon>MedProviderTableController.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomUI\MedProviderCell.cs" />
-    <Compile Include="CustomUI\MedProviderCell.designer.cs">
-      <DependentUpon>MedProviderCell.cs</DependentUpon>
+    <Compile Include="CustomUI\CustomProviderCell.cs" />
+    <Compile Include="CustomUI\CustomProviderCell.designer.cs">
+      <DependentUpon>CustomProviderCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomUI\LoadingOverlay.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

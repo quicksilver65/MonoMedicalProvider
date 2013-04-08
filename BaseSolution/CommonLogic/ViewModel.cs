@@ -89,6 +89,7 @@ namespace CommonLogic
 
 			ns.MedicalCitiesRetrievedCompleted += (collection) =>
 			{
+				Cities.Clear();
 				collection.ForEach ((x)=>Cities.Add(x));
 				this.fs.SaveCities (Cities.ToList());
 				if (Cities.Count != 0 && Specialties.Count != 0 && HasLoadedResources==false) {
@@ -98,6 +99,7 @@ namespace CommonLogic
 			};
 			ns.MedicalSpecialtiesRetrievedCompleted += (collection) =>
 			{
+				Specialties.Clear();
 				collection.ForEach ((x)=>Specialties.Add(x));
 				this.fs.SaveSpecialties (Specialties.ToList());
 				if (Cities.Count != 0 && Specialties.Count != 0 && HasLoadedResources==false) {
@@ -106,6 +108,7 @@ namespace CommonLogic
 			};
 			ns.MedicalProviderRetrievedCompleted += (collection) =>
 			{
+				ProviderResults.Clear();
 				collection.ForEach ((x)=>ProviderResults.Add(x));
 				if(ProviderSearchCompleted!=null)
 				{

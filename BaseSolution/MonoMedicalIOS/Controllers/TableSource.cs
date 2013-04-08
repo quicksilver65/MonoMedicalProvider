@@ -2,30 +2,32 @@ using System;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 using CommonLogic;
+using MonoTouch.ObjCRuntime;
 
 namespace MonoMedicalIOS
 {
-	public interface ITableViewSelectedItem{
-		string SelectedText{set;get;}
+	public interface ITableViewSelectedItem
+	{
+		string SelectedText{ set; get; }
 	}
-	public interface ITableViewSelectedProvider{
-		MedicalProvider SelectedProvider{set;get;}
-	}
-
-	public class TableSource : UITableViewSource, ITableViewSelectedItem {
+	
+	public class TableSource : UITableViewSource, ITableViewSelectedItem
+	{
 		#region ITableViewSelectedItem implementation
 		public string SelectedText {
 			get;
 			set;
 		}
 		#endregion
-		
+
 		protected string[] tableItems;
 		protected string cellIdentifier = "TableCell";
+
 		public TableSource (string[] items)
 		{
 			tableItems = items;
 		}
+
 		public override int RowsInSection (UITableView tableview, int section)
 		{
 			return tableItems.Length;
@@ -38,53 +40,75 @@ namespace MonoMedicalIOS
 			// if there are no cells to reuse, create a new one
 			if (cell == null)
 				cell = new UITableViewCell (UITableViewCellStyle.Default, cellIdentifier);
-			cell.TextLabel.Text = tableItems[indexPath.Row];
+			cell.TextLabel.Text = tableItems [indexPath.Row];
 			return cell;
 		}
+
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
-			this.SelectedText=tableItems[indexPath.Row];
+			this.SelectedText = tableItems [indexPath.Row];
 		}
 	}
-	public class ProviderTableSource : UITableViewSource, ITableViewSelectedProvider{
-		#region ITableViewSelectedProvider implementation
-		public MedicalProvider SelectedProvider {
-			get; 
+
+	public class ProviderTableSource : UITableViewSource
+	{
+
+		public ViewModel AppModel {
+			get;
 			set;
 		}
-		#endregion
-
-		protected MedicalProvider[] tableItems;
-		protected string cellIdentifier = "TableCell";
-
-		public ProviderTableSource (MedicalProvider[] tableItems)
-		{
-			this.tableItems=tableItems;
+		private MedicalProvider[] ProviderList {
+			get{return this.AppModel.ProviderResults.ToArray();}
 		}
+
+		//protected MedicalProvider[] tableItems;
+		protected string cellIdentifier = "CustomProvider";
+
+
 		public override int RowsInSection (UITableView tableview, int section)
 		{
-			return tableItems.Length;
+			return ProviderList.Length;
 		}
+
 		public override UITableViewCell  GetCell (UITableView tableView, NSIndexPath indexPath)
 		{
 			// request a recycled cell to save memory
-			MedProviderCell cell =(MedProviderCell) tableView.DequeueReusableCell ("MedProviderCell");
 
+			var cell = tableView.DequeueReusableCell (cellIdentifier) as CustomProviderCell;
 
-			// if there are no cells to reuse, create a new one
-			if (cell == null){
-				cell = new MedProviderCell (new NSString("MedProviderCell"));
-
-
+			if (cell == null) {
+				cell = new CustomProviderCell (cellIdentifier);
 			}
-			MedicalProvider obj = tableItems[indexPath.Row];
-			cell.SetCellProperties(obj);
+			MedicalProvider obj = ProviderList [indexPath.Row];
+			cell.BindFields (obj);
 			//cell.lbl.Text = tableItems[indexPath.Row].FirstName;
 			return cell;
 		}
+
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
-			this.SelectedProvider=tableItems[indexPath.Row];
+			var selectedProvider = ProviderList [indexPath.Row];
+
+			var actionSheet = new UIActionSheet (selectedProvider.LastName);                      
+			actionSheet.AddButton ("Cancel");
+			actionSheet.AddButton ("Add Favorites");
+			actionSheet.AddButton ("Call");
+			actionSheet.AddButton ("Directions");
+			actionSheet.CancelButtonIndex = 0; 
+			actionSheet.Clicked += delegate(object a, UIButtonEventArgs b) {
+				switch (b.ButtonIndex) {
+					case 0:
+						break;
+					case 1:
+						AppModel.AddFavorite(selectedProvider);
+						break;
+					case 2:
+						break;
+					case 3:
+						break;
+				}
+			};
+			actionSheet.ShowInView (tableView);
 		}
 
 	}
