@@ -65,14 +65,21 @@ namespace MonoMedicalIOS
 		{
 			return tableItems.Length;
 		}
-		public override UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath)
+		public override UITableViewCell  GetCell (UITableView tableView, NSIndexPath indexPath)
 		{
 			// request a recycled cell to save memory
-			UITableViewCell cell = tableView.DequeueReusableCell (cellIdentifier);
+			MedProviderCell cell =(MedProviderCell) tableView.DequeueReusableCell ("MedProviderCell");
+
+
 			// if there are no cells to reuse, create a new one
-			if (cell == null)
-				cell = new UITableViewCell (UITableViewCellStyle.Default, cellIdentifier);
-			cell.TextLabel.Text = tableItems[indexPath.Row].FirstName;
+			if (cell == null){
+				cell = new MedProviderCell (new NSString("MedProviderCell"));
+
+
+			}
+			MedicalProvider obj = tableItems[indexPath.Row];
+			cell.SetCellProperties(obj);
+			//cell.lbl.Text = tableItems[indexPath.Row].FirstName;
 			return cell;
 		}
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)

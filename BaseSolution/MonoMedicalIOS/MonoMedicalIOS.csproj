@@ -145,6 +145,10 @@
     <Compile Include="Controllers\MedProviderTableController.designer.cs">
       <DependentUpon>MedProviderTableController.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomUI\MedProviderCell.cs" />
+    <Compile Include="CustomUI\MedProviderCell.designer.cs">
+      <DependentUpon>MedProviderCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -166,6 +170,7 @@
     <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Images\" />
+    <Folder Include="CustomUI\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="flyoutnavigation">

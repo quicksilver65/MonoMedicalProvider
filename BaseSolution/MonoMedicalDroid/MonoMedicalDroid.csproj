@@ -67,6 +67,9 @@
     <Compile Include="..\CommonLogic\Models\SearchCriteria.cs">
       <Link>Models\SearchCriteria.cs</Link>
     </Compile>
+    <Compile Include="..\CommonLogic\ViewModel.cs">
+      <Link>Models\ViewModel.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
