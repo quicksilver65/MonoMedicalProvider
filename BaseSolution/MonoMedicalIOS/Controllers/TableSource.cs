@@ -10,7 +10,9 @@ namespace MonoMedicalIOS
 	{
 		string SelectedText{ set; get; }
 	}
-	
+
+	public delegate void ProviderSelectedHandler(MedicalProvider mp);
+
 	public class TableSource : UITableViewSource, ITableViewSelectedItem
 	{
 		#region ITableViewSelectedItem implementation
@@ -52,13 +54,11 @@ namespace MonoMedicalIOS
 
 	public class ProviderTableSource : UITableViewSource
 	{
+		public event ProviderSelectedHandler ProviderSelected;
 
-		public ViewModel AppModel {
+		public MedicalProvider[] ProviderList {
 			get;
 			set;
-		}
-		private MedicalProvider[] ProviderList {
-			get{return this.AppModel.ProviderResults.ToArray();}
 		}
 
 		//protected MedicalProvider[] tableItems;
@@ -88,27 +88,10 @@ namespace MonoMedicalIOS
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
 			var selectedProvider = ProviderList [indexPath.Row];
+			if(ProviderSelected!=null){
+				ProviderSelected(selectedProvider);
+			}
 
-			var actionSheet = new UIActionSheet (selectedProvider.LastName);                      
-			actionSheet.AddButton ("Cancel");
-			actionSheet.AddButton ("Add Favorites");
-			actionSheet.AddButton ("Call");
-			actionSheet.AddButton ("Directions");
-			actionSheet.CancelButtonIndex = 0; 
-			actionSheet.Clicked += delegate(object a, UIButtonEventArgs b) {
-				switch (b.ButtonIndex) {
-					case 0:
-						break;
-					case 1:
-						AppModel.AddFavorite(selectedProvider);
-						break;
-					case 2:
-						break;
-					case 3:
-						break;
-				}
-			};
-			actionSheet.ShowInView (tableView);
 		}
 
 	}

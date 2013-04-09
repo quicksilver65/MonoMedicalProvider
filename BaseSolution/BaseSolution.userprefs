@@ -2,16 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MonoMedicalIOS/Controllers/MedProviderTableController.cs">
     <Files>
-      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="44" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/Search.designer.cs" Line="22" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/MedProviderTableController.cs" Line="43" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/MedProviderTableController.designer.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/CitiesTableController.cs" Line="29" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/TableSource.cs" Line="49" Column="34" />
-      <File FileName="CommonLogic/DataStore/NetworkStorage.cs" Line="83" Column="1" />
-      <File FileName="CommonLogic/ViewModel.cs" Line="119" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/Home.cs" Line="1" Column="1" />
-      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="31" Column="6" />
+      <File FileName="MonoMedicalIOS/Controllers/TableSource.cs" Line="58" Column="3" />
+      <File FileName="CommonLogic/ViewModel.cs" Line="1" Column="1" />
+      <File FileName="CommonLogic/DataStore/NetworkStorage.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/MedProviderTableController.cs" Line="68" Column="68" />
+      <File FileName="MonoMedicalIOS/CustomUI/LoadingOverlay.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/SpecialtyTableController.cs" Line="1" Column="1" />
+      <File FileName="MonoMedicalIOS/Controllers/Search.cs" Line="55" Column="4" />
+      <File FileName="MonoMedicalIOS/Controllers/MainTab.cs" Line="28" Column="4" />
+      <File FileName="MonoMedicalIOS/Controllers/Favorites.cs" Line="41" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,6 +20,7 @@
             <Node name="Controllers" expanded="True">
               <Node name="MedProviderTableController.cs" selected="True" />
             </Node>
+            <Node name="CustomUI" expanded="True" />
             <Node name="DataStore" expanded="True" />
             <Node name="Models" expanded="True" />
           </Node>
@@ -35,17 +35,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="19" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="22" column="38" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/UnitTest/Test.cs" line="24" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/ProviderTableController.cs" line="33" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/ProviderTableController.cs" line="29" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/ViewModel.cs" line="119" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/DataStore/NetworkStorage.cs" line="78" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/CommonLogic/DataStore/NetworkStorage.cs" line="83" column="1" />
-      <Breakpoint file="/Users/developer/MonoMedicalProvider/BaseSolution/MonoMedicalIOS/Controllers/MedProviderTableController.cs" line="33" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

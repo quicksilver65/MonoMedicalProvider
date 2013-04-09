@@ -21,11 +21,23 @@ namespace MonoMedicalIOS
 
 		public Search (IntPtr handle) : base (handle)
 		{
+		
 		}
 
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+
+			this.txtCity.EditingDidEnd+=delegate(object sender, EventArgs e) {
+				AppModel.ProviderSearchCriteria.City=txtCity.Text;
+			};
+			this.txtSpecialty.EditingDidEnd+=delegate(object sender, EventArgs e) {
+				AppModel.ProviderSearchCriteria.Specialty=txtSpecialty.Text;
+			};
+			this.txtProviderName.EditingDidEnd+=delegate(object sender, EventArgs e) {
+				AppModel.ProviderSearchCriteria.Name=txtProviderName.Text;
+			};
+
 			AppModel.ProviderSearchCriteria.PropertyChanged+=(sender,args)=>{
 				switch(args.PropertyName){
 					case "City":

@@ -11,9 +11,18 @@ namespace MonoMedicalIOS
 	[Register ("DirectionsController")]
 	partial class DirectionsController
 	{
+		[Outlet]
+		MonoTouch.MapKit.MKMapView map { get; set; }
+
+		[Action ("CloseMap:")]
+		partial void CloseMap (MonoTouch.Foundation.NSObject sender);
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (map != null) {
+				map.Dispose ();
+				map = null;
+			}
 		}
 	}
 }

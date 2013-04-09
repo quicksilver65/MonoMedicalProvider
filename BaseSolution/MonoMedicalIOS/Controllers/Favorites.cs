@@ -10,6 +10,8 @@ namespace MonoMedicalIOS
 {
 	public partial class Favorites : UIViewController,AppModelInterface
 	{
+		private ProviderTableSource dataSource;
+
 		public ViewModel AppModel {
 			get;
 			set;
@@ -21,6 +23,34 @@ namespace MonoMedicalIOS
 		{
 			base.ViewDidLoad ();
 		
+			dataSource = new ProviderTableSource(){ ProviderList = AppModel.Favorites.ToArray() };
+			dataSource.ProviderSelected+=(mp)=>{
+				var actionSheet = new UIActionSheet (mp.LastName);                      
+				actionSheet.AddButton ("Cancel");
+				actionSheet.AddButton ("Delete Favorite");
+				actionSheet.AddButton ("Call");
+				actionSheet.AddButton ("Directions");
+				actionSheet.CancelButtonIndex = 0; 
+				actionSheet.DestructiveButtonIndex=1;
+				actionSheet.Clicked += delegate(object a, UIButtonEventArgs b) {
+					switch (b.ButtonIndex) {
+					case 0:
+						break;
+					case 1:
+						AppModel.RemoveFavorite(mp);
+						this.MedProviderTable.ReloadData();
+						break;
+					case 2:
+						break;
+					case 3:
+						var directions = (DirectionsController)this.Storyboard.InstantiateViewController("Directions");
+						this.PresentViewController(directions,true,null);
+						break;
+					}
+				};
+				actionSheet.ShowInView (View);
+			};
+			this.MedProviderTable.Source= dataSource;
 		}
 
 	}

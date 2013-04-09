@@ -11,9 +11,15 @@ namespace MonoMedicalIOS
 	[Register ("Favorites")]
 	partial class Favorites
 	{
+		[Outlet]
+		MonoTouch.UIKit.UITableView MedProviderTable { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (MedProviderTable != null) {
+				MedProviderTable.Dispose ();
+				MedProviderTable = null;
+			}
 		}
 	}
 }

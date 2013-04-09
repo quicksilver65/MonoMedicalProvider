@@ -16,6 +16,7 @@ namespace MonoMedicalIOS
 	public partial class MainTab : UITabBarController
 	{
 		private ViewModel appModel;
+		private LoadingOverlay loadingOverlay;
 
 		public MainTab (IntPtr handle) : base (handle)
 		{
@@ -26,9 +27,12 @@ namespace MonoMedicalIOS
 		{
 
 			base.ViewDidLoad ();
+			loadingOverlay = new LoadingOverlay (UIScreen.MainScreen.Bounds);
+			View.Add (loadingOverlay);
 			appModel.PropertyChanged+=(s,a)=>{
 				if(a.PropertyName=="HasLoadedResources"){
 					this.BeginInvokeOnMainThread(delegate {
+						loadingOverlay.Hide();
 						foreach(AppModelInterface item in this.ViewControllers){
 							item.AppModel=appModel;
 						}

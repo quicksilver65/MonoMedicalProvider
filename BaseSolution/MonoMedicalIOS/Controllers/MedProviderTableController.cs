@@ -37,11 +37,35 @@ namespace MonoMedicalIOS
 				loadingOverlay = new LoadingOverlay (UIScreen.MainScreen.Bounds);
 				View.Add (loadingOverlay);
 
-				dataSource = new ProviderTableSource(){ AppModel=this.AppModel};
+				dataSource = new ProviderTableSource(){ ProviderList = new MedicalProvider[0] };
+				dataSource.ProviderSelected+=(mp)=>{
+					var actionSheet = new UIActionSheet (mp.LastName);                      
+					actionSheet.AddButton ("Cancel");
+					actionSheet.AddButton ("Add Favorites");
+					actionSheet.AddButton ("Call");
+					actionSheet.AddButton ("Directions");
+					actionSheet.CancelButtonIndex = 0; 
+					actionSheet.Clicked += delegate(object a, UIButtonEventArgs b) {
+						switch (b.ButtonIndex) {
+						case 0:
+							break;
+						case 1:
+							AppModel.AddFavorite(mp);
+							break;
+						case 2:
+							break;
+						case 3:
+							var directions = (DirectionsController)this.Storyboard.InstantiateViewController("Directions");
+							this.PresentViewController(directions,true,null);
+							break;
+						}
+					};
+					actionSheet.ShowInView (View);
+				};
 				this.MedProviderTable.Source= dataSource;
 				AppModel.ProviderSearchCompleted+=(e,a)=>{
 					this.BeginInvokeOnMainThread(delegate {
-						//dataSource.ProviderList = AppModel.ProviderResults.ToArray();
+						dataSource.ProviderList = AppModel.ProviderResults.ToArray();
 						this.MedProviderTable.ReloadData();
 						loadingOverlay.Hide ();
 					});
