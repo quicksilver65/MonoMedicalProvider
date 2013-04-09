@@ -12,6 +12,8 @@ namespace CommonLogic
 	{
 		public event EventHandler ProviderSearchCompleted;
 		public event EventHandler FavoritesUpdated;
+		public event EventHandler CoordinatedUpdated;
+
 		#region INotifyPropertyChanged implementation
 
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -26,6 +28,26 @@ namespace CommonLogic
 		private ObservableCollection<MedicalProvider> favorites;
 		private ObservableCollection<string> cities;
 		private ObservableCollection<string> specialties;
+		private LatLong providerLocation;
+		private MedicalProvider selectedProvider;
+
+		public MedicalProvider SelectedProvider {
+			get {
+				return selectedProvider;
+			}
+			set {
+				selectedProvider = value;
+			}
+		}
+
+		public LatLong ProviderLocation {
+			get {
+				return providerLocation;
+			}
+			set {
+				providerLocation = value;
+			}
+		}
 
 		public ObservableCollection<string> Specialties {
 			get {
@@ -115,7 +137,18 @@ namespace CommonLogic
 					ProviderSearchCompleted(null,null);
 				}
 			};
+			ns.LatLongRetrievedCompleted+=(latLong)=>{
+				ProviderLocation = latLong;
+				if(CoordinatedUpdated!=null)
+					CoordinatedUpdated(null,null);
+			};
 
+		}
+
+		public void GetProviderLocation(){
+			if(SelectedProvider!=null){
+				ns.GetLatLong(SelectedProvider.id);
+			}
 		}
 
 		public void SearchForProviders(){

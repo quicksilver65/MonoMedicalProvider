@@ -39,6 +39,7 @@ namespace MonoMedicalIOS
 
 				dataSource = new ProviderTableSource(){ ProviderList = new MedicalProvider[0] };
 				dataSource.ProviderSelected+=(mp)=>{
+					AppModel.SelectedProvider=mp;
 					var actionSheet = new UIActionSheet (mp.LastName);                      
 					actionSheet.AddButton ("Cancel");
 					actionSheet.AddButton ("Add Favorites");
@@ -53,9 +54,11 @@ namespace MonoMedicalIOS
 							AppModel.AddFavorite(mp);
 							break;
 						case 2:
+							UIApplication.SharedApplication.OpenUrl(new NSUrl("tel:" + mp.PhoneNumber));
 							break;
 						case 3:
 							var directions = (DirectionsController)this.Storyboard.InstantiateViewController("Directions");
+							directions.AppModel=this.AppModel;
 							this.PresentViewController(directions,true,null);
 							break;
 						}
@@ -70,6 +73,7 @@ namespace MonoMedicalIOS
 						loadingOverlay.Hide ();
 					});
 				};
+				AppModel.SelectedProvider=null;
 				AppModel.SearchForProviders();
 			}
 		}

@@ -1,2 +1,2 @@
-2013-04-08 18:39:38.134 MonoMedicalIOS[990:1a03] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
-2013-04-08 18:39:45.449 MonoMedicalIOS[990:c07] Presenting action sheet clipped by its superview. Some controls might not respond to touches. On iPhone try -[UIActionSheet showFromTabBar:] or -[UIActionSheet showFromToolbar:] instead of -[UIActionSheet showInView:].
+2013-04-08 21:07:05.673 MonoMedicalIOS[2093:1803] MonoTouch: Socket error while connecting to MonoDevelop on 127.0.0.1:10000: Connection refused
+Terminating in response to SpringBoard's termination.
