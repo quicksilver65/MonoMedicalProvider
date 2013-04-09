@@ -150,6 +150,10 @@
       <DependentUpon>CustomProviderCell.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomUI\LoadingOverlay.cs" />
+    <Compile Include="Controllers\InfoController.cs" />
+    <Compile Include="Controllers\InfoController.designer.cs">
+      <DependentUpon>InfoController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -164,6 +168,7 @@
     <BundleResource Include="Images\star.png" />
     <BundleResource Include="Images\house.png" />
     <BundleResource Include="Images\CadueusGrey.png" />
+    <BundleResource Include="Images\infoImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
