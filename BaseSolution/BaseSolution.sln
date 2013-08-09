@@ -199,7 +199,7 @@ Global
 		{DB4F4904-EF0D-4963-977C-A89690CD9F29}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = CommonLogic\CommonLogic.csproj
+		StartupItem = MonoMedicalDroid\MonoMedicalDroid.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
